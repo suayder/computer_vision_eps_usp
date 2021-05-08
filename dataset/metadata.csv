@@ -1,0 +1,361 @@
+file_name,class,enviroment,lighting,object_number,background,bg_description,rows,cols,file_size(MB)
+1.jpg,pen,indoor,day,0,0,beige pottery,4000,3000,0.7470588684082031
+2.jpg,pen,indoor,day,0,0,beige pottery,4000,3000,0.6236734390258789
+3.jpg,pen,indoor,day,0,0,beige pottery,4000,3000,0.5862703323364258
+4.jpg,pen,indoor,day,0,1,white table,4000,3000,0.6572494506835938
+5.jpg,pen,indoor,day,0,1,white table,4000,3000,0.6235284805297852
+6.jpg,pen,indoor,day,0,1,white table,4000,3000,0.7004632949829102
+7.jpg,pen,indoor,day,0,2,shades blue fabric,4000,3000,2.235746383666992
+8.jpg,pen,indoor,day,0,2,shades blue fabric,4000,3000,2.1680498123168945
+9.jpg,pen,indoor,day,0,2,shades blue fabric,4000,3000,2.1279497146606445
+10.jpg,pen,indoor,day,1,0,beige pottery,4000,3000,0.7428359985351562
+11.jpg,pen,indoor,day,1,0,beige pottery,4000,3000,0.7556695938110352
+12.jpg,pen,indoor,day,1,0,beige pottery,4000,3000,0.7110939025878906
+13.jpg,pen,indoor,day,1,1,white table,4000,3000,0.6995658874511719
+14.jpg,pen,indoor,day,1,1,white table,4000,3000,0.7140617370605469
+15.jpg,pen,indoor,day,1,1,white table,4000,3000,0.7393341064453125
+16.jpg,pen,indoor,day,1,2,shades blue fabric,4000,3000,1.9620962142944336
+17.jpg,pen,indoor,day,1,2,shades blue fabric,4000,3000,2.2249326705932617
+18.jpg,pen,indoor,day,1,2,shades blue fabric,4000,3000,2.499049186706543
+19.jpg,pen,indoor,day,2,0,beige pottery,4000,3000,0.6654739379882812
+20.jpg,pen,indoor,day,2,0,beige pottery,4000,3000,0.6594161987304688
+21.jpg,pen,indoor,day,2,0,beige pottery,4000,3000,0.6589174270629883
+22.jpg,pen,indoor,day,2,1,white table,4000,3000,0.9156808853149414
+23.jpg,pen,indoor,day,2,1,white table,4000,3000,0.7285385131835938
+24.jpg,pen,indoor,day,2,1,white table,4000,3000,0.7478208541870117
+25.jpg,pen,indoor,day,2,2,shades blue fabric,4000,3000,1.7615060806274414
+26.jpg,pen,indoor,day,2,2,shades blue fabric,4000,3000,1.7065448760986328
+27.jpg,pen,indoor,day,2,2,shades blue fabric,4000,3000,2.22666072845459
+28.jpg,pen,indoor,day,3,0,beige pottery,4000,3000,0.7068367004394531
+29.jpg,pen,indoor,day,3,0,beige pottery,4000,3000,0.7662191390991211
+30.jpg,pen,indoor,day,3,0,beige pottery,4000,3000,0.7864007949829102
+31.jpg,pen,indoor,day,3,1,white table,4000,3000,0.5464181900024414
+32.jpg,pen,indoor,day,3,1,white table,4000,3000,0.5337543487548828
+33.jpg,pen,indoor,day,3,1,white table,4000,3000,0.5571842193603516
+34.jpg,pen,indoor,day,3,2,shades blue fabric,4000,3000,2.184178352355957
+35.jpg,pen,indoor,day,3,2,shades blue fabric,4000,3000,2.2056446075439453
+36.jpg,pen,indoor,day,3,2,shades blue fabric,4000,3000,2.360053062438965
+37.jpg,pen,indoor,night,0,0,beige pottery,4000,3000,0.7133779525756836
+38.jpg,pen,indoor,night,0,0,beige pottery,3000,4000,0.8299655914306641
+39.jpg,pen,indoor,night,0,0,beige pottery,4000,3000,0.8458948135375977
+40.jpg,pen,indoor,night,0,1,white table,3000,4000,0.5838375091552734
+41.jpg,pen,indoor,night,0,1,white table,3000,4000,0.6723432540893555
+42.jpg,pen,indoor,night,0,1,white table,3000,4000,0.6621541976928711
+43.jpg,pen,indoor,night,0,2,shades blue fabric,3000,4000,3.148611068725586
+44.jpg,pen,indoor,night,0,2,shades blue fabric,4000,3000,2.9784059524536133
+45.jpg,pen,indoor,night,0,2,shades blue fabric,4000,3000,2.4422054290771484
+46.jpg,pen,indoor,night,1,0,beige pottery,4000,3000,0.7305307388305664
+47.jpg,pen,indoor,night,1,0,beige pottery,3000,4000,0.7819318771362305
+48.jpg,pen,indoor,night,1,0,beige pottery,3000,4000,0.7594633102416992
+49.jpg,pen,indoor,night,1,1,white table,3000,4000,0.8368282318115234
+50.jpg,pen,indoor,night,1,1,white table,3000,4000,0.675166130065918
+51.jpg,pen,indoor,night,1,1,white table,3000,4000,0.6623315811157227
+52.jpg,pen,indoor,night,1,2,shades blue fabric,3000,4000,3.42193603515625
+53.jpg,pen,indoor,night,1,2,shades blue fabric,4000,3000,2.8255271911621094
+54.jpg,pen,indoor,night,1,2,shades blue fabric,4000,3000,2.509214401245117
+55.jpg,pen,indoor,night,2,0,beige pottery,4000,3000,0.6900291442871094
+56.jpg,pen,indoor,night,2,0,beige pottery,4000,3000,0.7728967666625977
+57.jpg,pen,indoor,night,2,0,beige pottery,4000,3000,0.860936164855957
+58.jpg,pen,indoor,night,2,1,white table,3000,4000,0.7266426086425781
+59.jpg,pen,indoor,night,2,1,white table,3000,4000,0.7893438339233398
+60.jpg,pen,indoor,night,2,1,white table,3000,4000,0.8078470230102539
+61.jpg,pen,indoor,night,2,2,shades blue fabric,3000,4000,3.326369285583496
+62.jpg,pen,indoor,night,2,2,shades blue fabric,4000,3000,2.9908695220947266
+63.jpg,pen,indoor,night,2,2,shades blue fabric,4000,3000,1.8263206481933594
+64.jpg,pen,indoor,night,3,0,beige pottery,3000,4000,0.7324028015136719
+65.jpg,pen,indoor,night,3,0,beige pottery,3000,4000,0.749272346496582
+66.jpg,pen,indoor,night,3,0,beige pottery,3000,4000,0.6557559967041016
+67.jpg,pen,indoor,night,3,1,white table,4000,3000,0.6075267791748047
+68.jpg,pen,indoor,night,3,1,white table,4000,3000,0.6774692535400391
+69.jpg,pen,indoor,night,3,1,white table,3000,4000,0.6757183074951172
+70.jpg,pen,indoor,night,3,2,shades blue fabric,3000,4000,3.6039962768554688
+71.jpg,pen,indoor,night,3,2,shades blue fabric,4000,3000,1.332601547241211
+72.jpg,pen,indoor,night,3,2,shades blue fabric,3000,4000,3.1028966903686523
+73.jpg,pen,outdoor,day,0,0,beige grained pottery,4000,3000,0.8419084548950195
+74.jpg,pen,outdoor,day,0,0,beige grained pottery,4000,3000,0.6838493347167969
+75.jpg,pen,outdoor,day,0,0,beige grained pottery,4000,3000,0.7492666244506836
+76.jpg,pen,outdoor,day,0,1,green fabric,4000,3000,0.8011283874511719
+77.jpg,pen,outdoor,day,0,1,green fabric,4000,3000,4.101919174194336
+78.jpg,pen,outdoor,day,0,1,green fabric,4000,3000,0.7200021743774414
+79.jpg,pen,outdoor,day,0,2,white fabric,4000,3000,1.6867704391479492
+80.jpg,pen,outdoor,day,0,2,white fabric,4000,3000,1.1006889343261719
+81.jpg,pen,outdoor,day,0,2,white fabric,4000,3000,1.3132200241088867
+82.jpg,pen,outdoor,day,1,0,beige grained pottery,4000,3000,0.8559932708740234
+83.jpg,pen,outdoor,day,1,0,beige grained pottery,4000,3000,0.8516387939453125
+84.jpg,pen,outdoor,day,1,0,beige grained pottery,4000,3000,0.9122819900512695
+85.jpg,pen,outdoor,day,1,1,green fabric,4000,3000,3.240581512451172
+86.jpg,pen,outdoor,day,1,1,green fabric,4000,3000,2.615546226501465
+87.jpg,pen,outdoor,day,1,1,green fabric,4000,3000,3.5260133743286133
+88.jpg,pen,outdoor,day,1,2,white fabric,4000,3000,2.066629409790039
+89.jpg,pen,outdoor,day,1,2,white fabric,4000,3000,1.853734016418457
+90.jpg,pen,outdoor,day,1,2,white fabric,4000,3000,2.088484764099121
+91.jpg,pen,outdoor,day,3,0,beige grained pottery,4000,3000,0.9150896072387695
+92.jpg,pen,outdoor,day,3,0,beige grained pottery,4000,3000,0.8554010391235352
+93.jpg,pen,outdoor,day,3,0,beige grained pottery,4000,3000,0.7502059936523438
+94.jpg,pen,outdoor,day,3,1,green fabric,4000,3000,3.6132144927978516
+95.jpg,pen,outdoor,day,3,1,green fabric,4000,3000,3.619399070739746
+96.jpg,pen,outdoor,day,3,1,green fabric,4000,3000,1.9189672470092773
+97.jpg,pen,outdoor,day,3,2,white fabric,4000,3000,2.190117835998535
+98.jpg,pen,outdoor,day,3,2,white fabric,4000,3000,1.6548805236816406
+99.jpg,pen,outdoor,day,3,2,white fabric,4000,3000,2.1745386123657227
+100.jpg,pen,outdoor,day,2,0,beige grained pottery,4000,3000,0.8890676498413086
+101.jpg,pen,outdoor,day,2,0,beige grained pottery,4000,3000,0.9446134567260742
+102.jpg,pen,outdoor,day,2,0,beige grained pottery,4000,3000,0.698155403137207
+103.jpg,pen,outdoor,day,2,1,green fabric,4000,3000,2.7743873596191406
+104.jpg,pen,outdoor,day,2,1,green fabric,4000,3000,2.6771583557128906
+105.jpg,pen,outdoor,day,2,1,green fabric,4000,3000,2.9293088912963867
+106.jpg,pen,outdoor,day,2,2,white fabric,4000,3000,2.0945491790771484
+107.jpg,pen,outdoor,day,2,2,white fabric,4000,3000,2.2894439697265625
+108.jpg,pen,outdoor,day,2,2,white fabric,4000,3000,2.2781476974487305
+109.jpg,pen,outdoor,night,0,0,beige grained pottery,3000,4000,0.8352584838867188
+110.jpg,pen,outdoor,night,0,0,beige grained pottery,4000,3000,1.5248479843139648
+111.jpg,pen,outdoor,night,0,0,beige grained pottery,4000,3000,1.50531005859375
+112.jpg,pen,outdoor,night,0,1,green fabric,4000,3000,4.290768623352051
+113.jpg,pen,outdoor,night,0,1,green fabric,4000,3000,2.2892370223999023
+114.jpg,pen,outdoor,night,0,1,green fabric,4000,3000,0.6997842788696289
+115.jpg,pen,outdoor,night,0,2,white fabric,4000,3000,1.9837026596069336
+116.jpg,pen,outdoor,night,0,2,white fabric,4000,3000,2.5318355560302734
+117.jpg,pen,outdoor,night,0,2,white fabric,3000,4000,1.6536798477172852
+118.jpg,pen,outdoor,night,1,0,beige grained pottery,3000,4000,0.840545654296875
+119.jpg,pen,outdoor,night,1,0,beige grained pottery,4000,3000,1.4207324981689453
+120.jpg,pen,outdoor,night,1,0,beige grained pottery,4000,3000,1.2539758682250977
+121.jpg,pen,outdoor,night,1,1,green fabric,4000,3000,5.232328414916992
+122.jpg,pen,outdoor,night,1,1,green fabric,4000,3000,1.0851402282714844
+123.jpg,pen,outdoor,night,1,1,green fabric,4000,3000,2.1412696838378906
+124.jpg,pen,outdoor,night,1,2,white fabric,4000,3000,2.19260311126709
+125.jpg,pen,outdoor,night,1,2,white fabric,4000,3000,2.154496192932129
+126.jpg,pen,outdoor,night,1,2,white fabric,4000,3000,2.6503705978393555
+127.jpg,pen,outdoor,night,2,0,beige grained pottery,3000,4000,0.7709035873413086
+128.jpg,pen,outdoor,night,2,0,beige grained pottery,4000,3000,2.2567996978759766
+129.jpg,pen,outdoor,night,2,0,beige grained pottery,4000,3000,1.6837100982666016
+130.jpg,pen,outdoor,night,2,1,green fabric,4000,3000,3.486659049987793
+131.jpg,pen,outdoor,night,2,1,green fabric,4000,3000,1.3949871063232422
+132.jpg,pen,outdoor,night,2,1,green fabric,4000,3000,3.0763931274414062
+133.jpg,pen,outdoor,night,2,2,white fabric,3000,4000,1.8299598693847656
+134.jpg,pen,outdoor,night,2,2,white fabric,4000,3000,2.236391067504883
+135.jpg,pen,outdoor,night,2,2,white fabric,4000,3000,1.9015741348266602
+136.jpg,pen,outdoor,night,3,0,beige grained pottery,4000,3000,0.918248176574707
+137.jpg,pen,outdoor,night,3,0,beige grained pottery,4000,3000,1.6035470962524414
+138.jpg,pen,outdoor,night,3,0,beige grained pottery,4000,3000,1.6787214279174805
+139.jpg,pen,outdoor,night,3,1,green fabric,3000,4000,5.530416488647461
+140.jpg,pen,outdoor,night,3,1,green fabric,4000,3000,2.4382753372192383
+141.jpg,pen,outdoor,night,3,1,green fabric,4000,3000,2.221353530883789
+142.jpg,pen,outdoor,night,3,2,white fabric,3000,4000,1.721329689025879
+143.jpg,pen,outdoor,night,3,2,white fabric,4000,3000,1.765207290649414
+144.jpg,pen,outdoor,night,3,2,white fabric,4000,3000,1.8689146041870117
+145.jpg,medicine,indoor,day,0,0,beige pottery,4000,3000,1.2147636413574219
+146.jpg,medicine,indoor,day,0,0,beige pottery,4000,3000,0.9204196929931641
+147.jpg,medicine,indoor,day,0,0,beige pottery,4000,3000,0.7865104675292969
+148.jpg,medicine,indoor,day,0,1,white table,4000,3000,0.9139556884765625
+149.jpg,medicine,indoor,day,0,1,white table,4000,3000,0.6785402297973633
+150.jpg,medicine,indoor,day,0,1,white table,4000,3000,0.8684186935424805
+151.jpg,medicine,indoor,day,0,2,shades blue fabric,4000,3000,1.556105613708496
+152.jpg,medicine,indoor,day,0,2,shades blue fabric,4000,3000,1.5594873428344727
+153.jpg,medicine,indoor,day,0,2,shades blue fabric,4000,3000,2.0419416427612305
+154.jpg,medicine,indoor,day,1,0,beige pottery,4000,3000,0.9501914978027344
+155.jpg,medicine,indoor,day,1,0,beige pottery,4000,3000,0.9340429306030273
+156.jpg,medicine,indoor,day,1,0,beige pottery,4000,3000,0.8509073257446289
+157.jpg,medicine,indoor,day,1,1,white table,4000,3000,1.051121711730957
+158.jpg,medicine,indoor,day,1,1,white table,4000,3000,1.030045509338379
+159.jpg,medicine,indoor,day,1,1,white table,4000,3000,1.0578880310058594
+160.jpg,medicine,indoor,day,1,2,shades blue fabric,4000,3000,2.12044620513916
+161.jpg,medicine,indoor,day,1,2,shades blue fabric,4000,3000,2.44722843170166
+162.jpg,medicine,indoor,day,1,2,shades blue fabric,4000,3000,2.1156253814697266
+163.jpg,medicine,indoor,day,2,0,beige pottery,4000,3000,0.9095039367675781
+164.jpg,medicine,indoor,day,2,0,beige pottery,4000,3000,0.9985523223876953
+165.jpg,medicine,indoor,day,2,0,beige pottery,4000,3000,0.9180126190185547
+166.jpg,medicine,indoor,day,2,1,white table,4000,3000,0.7718448638916016
+167.jpg,medicine,indoor,day,2,1,white table,4000,3000,0.8422603607177734
+168.jpg,medicine,indoor,day,2,1,white table,4000,3000,0.8556756973266602
+169.jpg,medicine,indoor,day,2,2,shades blue fabric,4000,3000,1.985915184020996
+170.jpg,medicine,indoor,day,2,2,shades blue fabric,4000,3000,1.8677349090576172
+171.jpg,medicine,indoor,day,2,2,shades blue fabric,4000,3000,2.0684261322021484
+172.jpg,medicine,indoor,night,0,0,beige pottery,4000,3000,0.7384166717529297
+173.jpg,medicine,indoor,night,0,0,beige pottery,4000,3000,0.9431686401367188
+174.jpg,medicine,indoor,night,0,0,beige pottery,4000,3000,1.044992446899414
+175.jpg,medicine,indoor,night,0,1,white table,4000,3000,1.178375244140625
+176.jpg,medicine,indoor,night,0,1,white table,4000,3000,0.9842243194580078
+177.jpg,medicine,indoor,night,0,1,white table,4000,3000,0.7784643173217773
+178.jpg,medicine,indoor,night,0,2,shades blue fabric,4000,3000,2.802400588989258
+179.jpg,medicine,indoor,night,0,2,shades blue fabric,4000,3000,2.35552978515625
+180.jpg,medicine,indoor,night,0,2,shades blue fabric,4000,3000,2.2257204055786133
+181.jpg,medicine,indoor,night,1,0,beige pottery,4000,3000,1.0738201141357422
+182.jpg,medicine,indoor,night,1,0,beige pottery,4000,3000,1.0349597930908203
+183.jpg,medicine,indoor,night,1,0,beige pottery,4000,3000,0.9388942718505859
+184.jpg,medicine,indoor,night,1,1,white table,4000,3000,0.8463354110717773
+185.jpg,medicine,indoor,night,1,1,white table,4000,3000,0.9301414489746094
+186.jpg,medicine,indoor,night,1,1,white table,4000,3000,0.873809814453125
+187.jpg,medicine,indoor,night,1,2,shades blue fabric,4000,3000,2.2786035537719727
+188.jpg,medicine,indoor,night,1,2,shades blue fabric,4000,3000,2.2689409255981445
+189.jpg,medicine,indoor,night,1,2,shades blue fabric,4000,3000,2.4343223571777344
+190.jpg,medicine,indoor,night,2,0,beige pottery,4000,3000,0.8080558776855469
+191.jpg,medicine,indoor,night,2,0,beige pottery,4000,3000,0.927764892578125
+192.jpg,medicine,indoor,night,2,0,beige pottery,4000,3000,0.8495140075683594
+193.jpg,medicine,indoor,night,2,1,white table,4000,3000,1.0707616806030273
+194.jpg,medicine,indoor,night,2,1,white table,4000,3000,1.0270919799804688
+195.jpg,medicine,indoor,night,2,1,white table,4000,3000,1.4071111679077148
+196.jpg,medicine,indoor,night,2,2,shades blue fabric,4000,3000,2.365468978881836
+197.jpg,medicine,indoor,night,2,2,shades blue fabric,4000,3000,1.4514760971069336
+198.jpg,medicine,indoor,night,2,2,shades blue fabric,4000,3000,2.5018348693847656
+199.jpg,medicine,outdoor,day,0,0,beige grained pottery,4000,3000,1.5318317413330078
+200.jpg,medicine,outdoor,day,0,0,beige grained pottery,4000,3000,1.4113922119140625
+201.jpg,medicine,outdoor,day,0,0,beige grained pottery,4000,3000,1.5661773681640625
+202.jpg,medicine,outdoor,day,0,1,green fabric,4000,3000,3.7757186889648438
+203.jpg,medicine,outdoor,day,0,1,green fabric,4000,3000,3.875030517578125
+204.jpg,medicine,outdoor,day,0,1,green fabric,4000,3000,3.972897529602051
+205.jpg,medicine,outdoor,day,0,2,white fabric,4000,3000,3.114394187927246
+206.jpg,medicine,outdoor,day,0,2,white fabric,4000,3000,2.9884986877441406
+207.jpg,medicine,outdoor,day,0,2,white fabric,4000,3000,2.4516239166259766
+208.jpg,medicine,outdoor,day,1,0,beige grained pottery,4000,3000,1.4433441162109375
+209.jpg,medicine,outdoor,day,1,0,beige grained pottery,4000,3000,1.4855728149414062
+210.jpg,medicine,outdoor,day,1,0,beige grained pottery,4000,3000,1.4197359085083008
+211.jpg,medicine,outdoor,day,1,1,green fabric,4000,3000,4.671596527099609
+212.jpg,medicine,outdoor,day,1,1,green fabric,4000,3000,4.8688201904296875
+213.jpg,medicine,outdoor,day,1,1,green fabric,4000,3000,5.2273149490356445
+214.jpg,medicine,outdoor,day,1,2,white fabric,4000,3000,2.5291337966918945
+215.jpg,medicine,outdoor,day,1,2,white fabric,4000,3000,3.13021183013916
+216.jpg,medicine,outdoor,day,1,2,white fabric,4000,3000,3.2823410034179688
+217.jpg,medicine,outdoor,day,2,0,beige grained pottery,4000,3000,1.573781967163086
+218.jpg,medicine,outdoor,day,2,0,beige grained pottery,4000,3000,1.5574665069580078
+219.jpg,medicine,outdoor,day,2,0,beige grained pottery,4000,3000,1.5502681732177734
+220.jpg,medicine,outdoor,day,2,1,green fabric,4000,3000,3.658895492553711
+221.jpg,medicine,outdoor,day,2,1,green fabric,4000,3000,3.755772590637207
+222.jpg,medicine,outdoor,day,2,1,green fabric,4000,3000,3.8019065856933594
+223.jpg,medicine,outdoor,day,2,2,white fabric,4000,3000,3.0901288986206055
+224.jpg,medicine,outdoor,day,2,2,white fabric,4000,3000,3.244330406188965
+225.jpg,medicine,outdoor,day,2,2,white fabric,4000,3000,2.9890213012695312
+226.jpg,medicine,outdoor,night,0,0,beige grained pottery,4000,3000,1.6247234344482422
+227.jpg,medicine,outdoor,night,0,0,beige grained pottery,4000,3000,1.6764631271362305
+228.jpg,medicine,outdoor,night,0,0,beige grained pottery,4000,3000,1.2219390869140625
+229.jpg,medicine,outdoor,night,0,1,green fabric,4000,3000,1.6110458374023438
+230.jpg,medicine,outdoor,night,0,1,green fabric,4000,3000,1.3567018508911133
+231.jpg,medicine,outdoor,night,0,1,green fabric,4000,3000,3.61013126373291
+232.jpg,medicine,outdoor,night,0,2,white fabric,4000,3000,2.0190324783325195
+233.jpg,medicine,outdoor,night,0,2,white fabric,4000,3000,2.0810155868530273
+234.jpg,medicine,outdoor,night,0,2,white fabric,4000,3000,2.161271095275879
+235.jpg,medicine,outdoor,night,1,0,beige grained pottery,4000,3000,1.2967424392700195
+236.jpg,medicine,outdoor,night,1,0,beige grained pottery,4000,3000,1.490189552307129
+237.jpg,medicine,outdoor,night,1,0,beige grained pottery,4000,3000,2.0331802368164062
+238.jpg,medicine,outdoor,night,1,1,green fabric,4000,3000,1.1333694458007812
+239.jpg,medicine,outdoor,night,1,1,green fabric,4000,3000,1.70257568359375
+240.jpg,medicine,outdoor,night,1,1,green fabric,4000,3000,2.096254348754883
+241.jpg,medicine,outdoor,night,1,2,white fabric,4000,3000,1.0953826904296875
+242.jpg,medicine,outdoor,night,1,2,white fabric,4000,3000,0.9565534591674805
+243.jpg,medicine,outdoor,night,1,2,white fabric,4000,3000,2.687480926513672
+244.jpg,medicine,outdoor,night,2,0,beige grained pottery,4000,3000,1.8516340255737305
+245.jpg,medicine,outdoor,night,2,0,beige grained pottery,4000,3000,1.3467254638671875
+246.jpg,medicine,outdoor,night,2,0,beige grained pottery,4000,3000,1.5348291397094727
+247.jpg,medicine,outdoor,night,2,1,green fabric,4000,3000,2.0711135864257812
+248.jpg,medicine,outdoor,night,2,1,green fabric,4000,3000,0.7497787475585938
+249.jpg,medicine,outdoor,night,2,1,green fabric,4000,3000,1.2538747787475586
+250.jpg,medicine,outdoor,night,2,2,white fabric,4000,3000,2.5756826400756836
+251.jpg,medicine,outdoor,night,2,2,white fabric,4000,3000,2.0702342987060547
+252.jpg,medicine,outdoor,night,2,2,white fabric,4000,3000,2.0345983505249023
+253.jpg,toothbrush,indoor,day,0,0,beige pottery,4000,3000,0.5549383163452148
+254.jpg,toothbrush,indoor,day,0,0,beige pottery,4000,3000,0.6410531997680664
+255.jpg,toothbrush,indoor,day,0,0,beige pottery,4000,3000,0.6241817474365234
+256.jpg,toothbrush,indoor,day,0,1,white table,4000,3000,0.4921588897705078
+257.jpg,toothbrush,indoor,day,0,1,white table,4000,3000,0.48248958587646484
+258.jpg,toothbrush,indoor,day,0,1,white table,4000,3000,0.4471435546875
+259.jpg,toothbrush,indoor,day,0,2,shades blue fabric,4000,3000,2.136406898498535
+260.jpg,toothbrush,indoor,day,0,2,shades blue fabric,4000,3000,1.879246711730957
+261.jpg,toothbrush,indoor,day,0,2,shades blue fabric,4000,3000,2.0918960571289062
+262.jpg,toothbrush,indoor,day,1,0,beige pottery,4000,3000,0.5973386764526367
+263.jpg,toothbrush,indoor,day,1,0,beige pottery,4000,3000,0.5211305618286133
+264.jpg,toothbrush,indoor,day,1,0,beige pottery,4000,3000,0.5709285736083984
+265.jpg,toothbrush,indoor,day,1,1,white table,4000,3000,0.677729606628418
+266.jpg,toothbrush,indoor,day,1,1,white table,4000,3000,0.5220479965209961
+267.jpg,toothbrush,indoor,day,1,1,white table,4000,3000,0.5313863754272461
+268.jpg,toothbrush,indoor,day,1,2,shades blue fabric,4000,3000,1.7907209396362305
+269.jpg,toothbrush,indoor,day,1,2,shades blue fabric,4000,3000,1.5300531387329102
+270.jpg,toothbrush,indoor,day,1,2,shades blue fabric,4000,3000,1.7990188598632812
+271.jpg,toothbrush,indoor,day,2,0,beige pottery,4000,3000,0.5002231597900391
+272.jpg,toothbrush,indoor,day,2,0,beige pottery,4000,3000,0.5900611877441406
+273.jpg,toothbrush,indoor,day,2,0,beige pottery,4000,3000,0.48450183868408203
+274.jpg,toothbrush,indoor,day,2,1,white table,4000,3000,0.4967927932739258
+275.jpg,toothbrush,indoor,day,2,1,white table,4000,3000,0.5246133804321289
+276.jpg,toothbrush,indoor,day,2,1,white table,4000,3000,0.5011682510375977
+277.jpg,toothbrush,indoor,day,2,2,shades blue fabric,4000,3000,2.2157516479492188
+278.jpg,toothbrush,indoor,day,2,2,shades blue fabric,4000,3000,2.0758190155029297
+279.jpg,toothbrush,indoor,day,2,2,shades blue fabric,4000,3000,2.1636247634887695
+280.jpg,toothbrush,indoor,night,0,0,beige pottery,4000,3000,0.5451850891113281
+281.jpg,toothbrush,indoor,night,0,0,beige pottery,4000,3000,0.5049781799316406
+282.jpg,toothbrush,indoor,night,0,0,beige pottery,4000,3000,0.5380744934082031
+283.jpg,toothbrush,indoor,night,0,1,white table,4000,3000,0.9584131240844727
+284.jpg,toothbrush,indoor,night,0,1,white table,4000,3000,0.9168405532836914
+285.jpg,toothbrush,indoor,night,0,1,white table,4000,3000,0.7926054000854492
+286.jpg,toothbrush,indoor,night,0,2,shades blue fabric,4000,3000,2.5472097396850586
+287.jpg,toothbrush,indoor,night,0,2,shades blue fabric,4000,3000,2.349742889404297
+288.jpg,toothbrush,indoor,night,0,2,shades blue fabric,4000,3000,2.2093629837036133
+289.jpg,toothbrush,indoor,night,1,0,beige pottery,4000,3000,0.7351312637329102
+290.jpg,toothbrush,indoor,night,1,0,beige pottery,4000,3000,0.8072957992553711
+291.jpg,toothbrush,indoor,night,1,0,beige pottery,4000,3000,0.7364425659179688
+292.jpg,toothbrush,indoor,night,1,1,white table,4000,3000,0.6980619430541992
+293.jpg,toothbrush,indoor,night,1,1,white table,4000,3000,0.6344184875488281
+294.jpg,toothbrush,indoor,night,1,1,white table,4000,3000,0.5888767242431641
+295.jpg,toothbrush,indoor,night,1,2,shades blue fabric,4000,3000,2.4901771545410156
+296.jpg,toothbrush,indoor,night,1,2,shades blue fabric,4000,3000,2.386336326599121
+297.jpg,toothbrush,indoor,night,1,2,shades blue fabric,4000,3000,2.4790658950805664
+298.jpg,toothbrush,indoor,night,2,0,beige pottery,4000,3000,0.5373106002807617
+299.jpg,toothbrush,indoor,night,2,0,beige pottery,4000,3000,0.4627971649169922
+300.jpg,toothbrush,indoor,night,2,0,beige pottery,4000,3000,0.5757980346679688
+301.jpg,toothbrush,indoor,night,2,1,white table,4000,3000,0.828892707824707
+302.jpg,toothbrush,indoor,night,2,1,white table,4000,3000,0.7455644607543945
+303.jpg,toothbrush,indoor,night,2,1,white table,4000,3000,0.7965841293334961
+304.jpg,toothbrush,indoor,night,2,2,shades blue fabric,4000,3000,2.6263551712036133
+305.jpg,toothbrush,indoor,night,2,2,shades blue fabric,4000,3000,2.2873687744140625
+306.jpg,toothbrush,indoor,night,2,2,shades blue fabric,4000,3000,2.741212844848633
+307.jpg,toothbrush,outdoor,day,0,0,beige grained pottery,4000,3000,1.1173343658447266
+308.jpg,toothbrush,outdoor,day,0,0,beige grained pottery,4000,3000,1.0482873916625977
+309.jpg,toothbrush,outdoor,day,0,0,beige grained pottery,4000,3000,0.8684158325195312
+310.jpg,toothbrush,outdoor,day,0,1,green fabric,4000,3000,5.083767890930176
+311.jpg,toothbrush,outdoor,day,0,1,green fabric,4000,3000,5.364856719970703
+312.jpg,toothbrush,outdoor,day,0,1,green fabric,4000,3000,5.488681793212891
+313.jpg,toothbrush,outdoor,day,0,2,white fabric,4000,3000,2.4514026641845703
+314.jpg,toothbrush,outdoor,day,0,2,white fabric,4000,3000,3.1153926849365234
+315.jpg,toothbrush,outdoor,day,0,2,white fabric,4000,3000,2.711517333984375
+316.jpg,toothbrush,outdoor,day,1,0,beige grained pottery,4000,3000,0.9486618041992188
+317.jpg,toothbrush,outdoor,day,1,0,beige grained pottery,4000,3000,1.061732292175293
+318.jpg,toothbrush,outdoor,day,1,0,beige grained pottery,4000,3000,0.9711923599243164
+319.jpg,toothbrush,outdoor,day,1,1,green fabric,4000,3000,4.249545097351074
+320.jpg,toothbrush,outdoor,day,1,1,green fabric,4000,3000,4.474862098693848
+321.jpg,toothbrush,outdoor,day,1,1,green fabric,4000,3000,2.4977054595947266
+322.jpg,toothbrush,outdoor,day,1,2,white fabric,4000,3000,2.552309036254883
+323.jpg,toothbrush,outdoor,day,1,2,white fabric,4000,3000,2.6537771224975586
+324.jpg,toothbrush,outdoor,day,1,2,white fabric,4000,3000,2.8095197677612305
+325.jpg,toothbrush,outdoor,day,2,0,beige grained pottery,4000,3000,0.8810710906982422
+326.jpg,toothbrush,outdoor,day,2,0,beige grained pottery,4000,3000,0.8196954727172852
+327.jpg,toothbrush,outdoor,day,2,0,beige grained pottery,4000,3000,0.9397926330566406
+328.jpg,toothbrush,outdoor,day,2,1,green fabric,4000,3000,4.0079545974731445
+329.jpg,toothbrush,outdoor,day,2,1,green fabric,4000,3000,3.184638023376465
+330.jpg,toothbrush,outdoor,day,2,1,green fabric,4000,3000,3.9487810134887695
+331.jpg,toothbrush,outdoor,day,2,2,white fabric,4000,3000,1.9810981750488281
+332.jpg,toothbrush,outdoor,day,2,2,white fabric,4000,3000,3.910872459411621
+333.jpg,toothbrush,outdoor,day,2,2,white fabric,4000,3000,2.6582202911376953
+334.jpg,toothbrush,outdoor,night,0,0,beige grained pottery,4000,3000,1.8853788375854492
+335.jpg,toothbrush,outdoor,night,0,0,beige grained pottery,4000,3000,1.9264335632324219
+336.jpg,toothbrush,outdoor,night,0,0,beige grained pottery,4000,3000,3.541656494140625
+337.jpg,toothbrush,outdoor,night,0,1,green fabric,4000,3000,1.4618902206420898
+338.jpg,toothbrush,outdoor,night,0,1,green fabric,4000,3000,2.0206613540649414
+339.jpg,toothbrush,outdoor,night,0,1,green fabric,4000,3000,1.4814844131469727
+340.jpg,toothbrush,outdoor,night,0,2,white fabric,4000,3000,1.8135480880737305
+341.jpg,toothbrush,outdoor,night,0,2,white fabric,4000,3000,3.8463926315307617
+342.jpg,toothbrush,outdoor,night,0,2,white fabric,4000,3000,1.7128105163574219
+343.jpg,toothbrush,outdoor,night,1,0,beige grained pottery,4000,3000,1.3933296203613281
+344.jpg,toothbrush,outdoor,night,1,0,beige grained pottery,4000,3000,1.7680931091308594
+345.jpg,toothbrush,outdoor,night,1,0,beige grained pottery,4000,3000,1.8295354843139648
+346.jpg,toothbrush,outdoor,night,1,1,green fabric,4000,3000,3.952042579650879
+347.jpg,toothbrush,outdoor,night,1,1,green fabric,4000,3000,2.848804473876953
+348.jpg,toothbrush,outdoor,night,1,1,green fabric,4000,3000,0.9531583786010742
+349.jpg,toothbrush,outdoor,night,1,2,white fabric,4000,3000,1.350031852722168
+350.jpg,toothbrush,outdoor,night,1,2,white fabric,4000,3000,1.7578716278076172
+351.jpg,toothbrush,outdoor,night,1,2,white fabric,4000,3000,1.6385564804077148
+352.jpg,toothbrush,outdoor,night,2,0,beige grained pottery,4000,3000,1.5882558822631836
+353.jpg,toothbrush,outdoor,night,2,0,beige grained pottery,4000,3000,1.7752866744995117
+354.jpg,toothbrush,outdoor,night,2,0,beige grained pottery,4000,3000,0.6462411880493164
+355.jpg,toothbrush,outdoor,night,2,1,green fabric,4000,3000,2.5588111877441406
+356.jpg,toothbrush,outdoor,night,2,1,green fabric,4000,3000,0.8092107772827148
+357.jpg,toothbrush,outdoor,night,2,1,green fabric,4000,3000,0.35593318939208984
+358.jpg,toothbrush,outdoor,night,2,2,white fabric,4000,3000,1.9000005722045898
+359.jpg,toothbrush,outdoor,night,2,2,white fabric,4000,3000,1.0999279022216797
+360.jpg,toothbrush,outdoor,night,2,2,white fabric,4000,3000,1.768209457397461
