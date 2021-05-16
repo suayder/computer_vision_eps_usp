@@ -2,14 +2,20 @@
 This file read the csv of metadata and compute the summary of the dataset
 """
 
-import os
 import pandas as pd
 #pd.set_option('display.max_columns', None)
 
-#csv with the metadata to generate the summary of the all data
-CSV_PATH = 'dataset/metadata.csv'
-
 class DataDescription:
+    """
+    describe the dataset.
+    This class is not useful in terms of processing the data
+
+    Args:
+        csv_path: path to the csv where there are the metadata of the images.
+                  The csv must have this columns: [file_name,class,enviroment,
+                  lighting,object_number,background,bg_description,rows,cols,
+                  file_size(MB)]
+    """
     def __init__(self, csv_path):
         self.csv_data = pd.read_csv(csv_path)
 
@@ -67,8 +73,3 @@ class DataDescription:
     def summary_by_class(self):
         summary = self.__build_summary_by_class()
         print(summary)
-
-
-if __name__=="__main__":
-    DataDescription(csv_path).global_summary
-    DataDescription(csv_path).summary_by_class
