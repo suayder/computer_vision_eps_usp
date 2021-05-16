@@ -55,7 +55,10 @@ class DataDescription:
 
             index = ['enviroment','lighting','object_number','background','bg_description']
             pv = class_i[index].pivot_table(index=index, aggfunc='size')
-            class_description['number_of_repetions'].append(pv.unique().item())
+            try:
+                class_description['number_of_repetions'].append(pv.unique().item())
+            except:
+                class_description['number_of_repetions'].append(list(pv.unique()))
             class_description['number_of_samples'].append(len(class_i))
         
         return pd.DataFrame(class_description).set_index('object_name', drop=True)
@@ -77,3 +80,7 @@ class DataDescription:
     def get_summary_by_class(self) -> pd.DataFrame:
         summary = self.__build_summary_by_class()
         return summary
+
+
+description = DataDescription('/home/suayder/Desktop/visao/data_prep/dataset/data/metadata.csv')
+description.summary_by_class

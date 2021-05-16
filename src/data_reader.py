@@ -5,6 +5,7 @@ import os
 from random import sample
 from skimage import io
 from matplotlib import pyplot as plt
+import numpy as np
 import pandas as pd
 import math
 
@@ -39,7 +40,7 @@ class ObjectDataset:
             paths[f_name] = os.path.join(self.base_path,f_class, f_name)
         return paths
 
-    def get_item_description(self, img_name:str, features:list[str],str=None) -> str:
+    def get_item_description(self, img_name:str, features=None) -> str:
         
         if features is None:
             img_class = self.df_csv['class'].loc[img_name]
@@ -103,6 +104,27 @@ class ObjectDataset:
             axes[-1].set_title(subplot_title)
             io.imshow(img)
         figure.tight_layout()
+        plt.show()
+
+    def show_random_sample_on_colab(self, samples_by_class:int):
+        dataset_sample, names = self.get_random_sample(samples_by_class)
+        rows = len(names)//samples_by_class
+        cols = samples_by_class
+        if rows>8 or cols>10:
+            total_len = rows*cols
+            rows = round(math.sqrt(total_len))
+            cols = round(total_len/rows)
+        
+        plt.figure()
+        fig,ax = plt.subplots(rows,cols)
+        for el in range(len(names)):
+            img, cl = dataset_sample[el]
+            ax[el//cols,el%cols].imshow(img)
+            ax[el//cols,el%cols].axis('off')
+            ax[el//cols,el%cols].set_title(cl, fontsize=30)
+
+        fig.set_size_inches(np.array(fig.get_size_inches()) * len(names))
+        plt.axis('off')
         plt.show()
 
              
