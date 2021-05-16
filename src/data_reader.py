@@ -99,7 +99,9 @@ class ObjectDataset:
         axes = []
         for el in range(len(names)):
             img, cl = dataset_sample[el]
-            axes.append(figure.add_subplot(rows, cols, el+1))
+            ax = figure.add_subplot(rows, cols, el+1)
+            ax.axis('off')
+            axes.append(ax)
             subplot_title=(cl)
             axes[-1].set_title(subplot_title)
             io.imshow(img)
