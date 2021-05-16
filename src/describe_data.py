@@ -73,3 +73,7 @@ class DataDescription:
     def summary_by_class(self):
         summary = self.__build_summary_by_class()
         print(summary)
+    
+    def get_summary_by_class(self) -> pd.DataFrame:
+        summary = self.__build_summary_by_class()
+        return summary
