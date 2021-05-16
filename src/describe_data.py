@@ -80,7 +80,3 @@ class DataDescription:
     def get_summary_by_class(self) -> pd.DataFrame:
         summary = self.__build_summary_by_class()
         return summary
-
-
-description = DataDescription('/home/suayder/Desktop/visao/data_prep/dataset/data/metadata.csv')
-description.summary_by_class
