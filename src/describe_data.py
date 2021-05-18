@@ -30,7 +30,7 @@ class DataDescription:
         return round(self.csv_data['file_size(MB)'].sum(),3)
     @property
     def img_resolution(self):
-        return self.csv_data[['rows','cols']].drop_duplicates()
+        return self.csv_data[['rows','cols']].pivot_table(index=['rows','cols'], aggfunc='size')
 
     def __build_summary_by_class(self):
         classes = self.csv_data["class"].unique()
@@ -70,7 +70,7 @@ class DataDescription:
         print(f'Number of classes: {self.n_class}')
         print(f'Number of images: {self.n_images}')
         print(f'Database size: {self.db_size} MB')
-        print(f'Image resolution:\n{self.img_resolution}')
+        print(f'Image resolution and ammount of each resolution:\n{self.img_resolution}')
 
     @property
     def summary_by_class(self):
