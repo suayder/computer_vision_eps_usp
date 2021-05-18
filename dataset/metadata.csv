@@ -359,3 +359,758 @@ file_name,class,enviroment,lighting,object_number,background,bg_description,rows
 358.jpg,toothbrush,outdoor,night,2,2,white fabric,4000,3000,1.9000005722045898
 359.jpg,toothbrush,outdoor,night,2,2,white fabric,4000,3000,1.0999279022216797
 360.jpg,toothbrush,outdoor,night,2,2,white fabric,4000,3000,1.768209457397461
+361.JPEG,soda can,indoor,day,0,2, black vinyl cushion,2048,1536,0.5627450942993164
+362.JPEG,soda can,indoor,day,0,2, black vinyl cushion,2048,1536,0.5483016967773438
+363.JPEG,soda can,indoor,day,0,2, black vinyl cushion,2048,1536,0.5375146865844727
+364.JPEG,soda can,indoor,day,0,0,jute carpet,2048,1536,1.1342706680297852
+365.JPEG,soda can,indoor,day,0,0,jute carpet,2048,1536,1.1842460632324219
+366.JPEG,soda can,indoor,day,0,0,jute carpet,2048,1536,1.162179946899414
+367.JPEG,soda can,indoor,day,0,1, cement floor,2048,1536,0.42559051513671875
+368.JPEG,soda can,indoor,day,0,1, cement floor,2048,1536,0.41378021240234375
+369.JPEG,soda can,indoor,day,0,1, cement floor,2048,1536,0.4307985305786133
+370.JPEG,soda can,indoor,day,2,1, cement floor,2048,1536,0.5143232345581055
+371.JPEG,soda can,indoor,day,2,1, cement floor,2048,1536,0.5327739715576172
+372.JPEG,soda can,indoor,day,2,1, cement floor,2048,1536,0.526667594909668
+373.JPEG,soda can,indoor,day,2,0,jute carpet,2048,1536,1.0050668716430664
+374.JPEG,soda can,indoor,day,2,0,jute carpet,2048,1536,1.0056819915771484
+375.JPEG,soda can,indoor,day,2,0,jute carpet,2048,1536,1.0193357467651367
+376.JPEG,soda can,indoor,day,2,2, black vinyl cushion,2048,1536,0.5854892730712891
+377.JPEG,soda can,indoor,day,2,2, black vinyl cushion,2048,1536,0.587590217590332
+378.JPEG,soda can,indoor,day,2,2, black vinyl cushion,2048,1536,0.567723274230957
+379.JPEG,soda can,indoor,day,1,0,jute carpet,2048,1536,1.083688735961914
+380.JPEG,soda can,indoor,day,1,0,jute carpet,2048,1536,1.109598159790039
+381.JPEG,soda can,indoor,day,1,0,jute carpet,2048,1536,1.1113882064819336
+382.JPEG,soda can,indoor,day,1,1, cement floor,2048,1536,0.44788265228271484
+383.JPEG,soda can,indoor,day,1,1, cement floor,2048,1536,0.45595550537109375
+384.JPEG,soda can,indoor,day,1,1, cement floor,2048,1536,0.44762134552001953
+385.JPEG,soda can,indoor,day,1,2, black vinyl cushion,2048,1536,0.5054149627685547
+386.JPEG,soda can,indoor,day,1,2, black vinyl cushion,2048,1536,0.5116920471191406
+387.JPEG,soda can,indoor,day,1,2, black vinyl cushion,2048,1536,0.5104598999023438
+388.JPEG,soda can,indoor,night,1,1, cement floor,2048,1536,0.5243921279907227
+389.JPEG,soda can,indoor,night,1,1, cement floor,2048,1536,0.5428619384765625
+390.JPEG,soda can,indoor,night,1,1, cement floor,2048,1536,0.5678443908691406
+391.JPEG,soda can,indoor,night,1,2, black vinyl cushion,2048,1536,0.6338691711425781
+392.JPEG,soda can,indoor,night,1,2, black vinyl cushion,2048,1536,0.6533060073852539
+393.JPEG,soda can,indoor,night,1,2, black vinyl cushion,2048,1536,0.5422658920288086
+394.JPEG,soda can,indoor,night,1,0,jute carpet,2048,1536,1.0228776931762695
+395.JPEG,soda can,indoor,night,1,0,jute carpet,2048,1536,1.0656585693359375
+396.JPEG,soda can,indoor,night,1,0,jute carpet,2048,1536,1.0200061798095703
+397.JPEG,soda can,indoor,night,2,0,jute carpet,2048,1536,1.0652132034301758
+398.JPEG,soda can,indoor,night,2,0,jute carpet,2048,1536,0.9480009078979492
+399.JPEG,soda can,indoor,night,2,0,jute carpet,2048,1536,1.0833330154418945
+400.JPEG,soda can,indoor,night,2,1, cement floor,2048,1536,0.6302337646484375
+401.JPEG,soda can,indoor,night,2,1, cement floor,2048,1536,0.5931282043457031
+402.JPEG,soda can,indoor,night,2,1, cement floor,2048,1536,0.66705322265625
+403.JPEG,soda can,indoor,night,2,2, black vinyl cushion,2048,1536,0.5765895843505859
+404.JPEG,soda can,indoor,night,2,2, black vinyl cushion,2048,1536,0.6025533676147461
+405.JPEG,soda can,indoor,night,2,2, black vinyl cushion,2048,1536,0.5663595199584961
+406.JPEG,soda can,indoor,night,0,1, cement floor,2048,1536,0.5538358688354492
+407.JPEG,soda can,indoor,night,0,1, cement floor,2048,1536,0.6628446578979492
+408.JPEG,soda can,indoor,night,0,1, cement floor,2048,1536,0.6365518569946289
+409.JPEG,soda can,indoor,night,0,0,jute carpet,2048,1536,1.1795806884765625
+410.JPEG,soda can,indoor,night,0,0,jute carpet,2048,1536,1.1513137817382812
+411.JPEG,soda can,indoor,night,0,0,jute carpet,2048,1536,1.116689682006836
+412.JPEG,soda can,indoor,night,0,2, black vinyl cushion,2048,1536,0.6230506896972656
+413.JPEG,soda can,indoor,night,0,2, black vinyl cushion,2048,1536,0.6225709915161133
+414.JPEG,soda can,indoor,night,0,2, black vinyl cushion,2048,1536,0.6144199371337891
+415.JPEG,soda can,outdoor,night,2,0,jute carpet,2048,1536,0.9622173309326172
+416.JPEG,soda can,outdoor,night,2,0,jute carpet,2048,1536,1.091634750366211
+417.JPEG,soda can,outdoor,night,2,0,jute carpet,2048,1536,0.8923931121826172
+418.JPEG,soda can,outdoor,night,2,2,black vinyl cushion,2048,1536,0.7152900695800781
+419.JPEG,soda can,outdoor,night,2,2,black vinyl cushion,2048,1536,0.5485687255859375
+420.JPEG,soda can,outdoor,night,2,2,black vinyl cushion,2048,1536,0.6961746215820312
+421.JPEG,soda can,outdoor,night,2,1,cement floor,2048,1536,0.5586338043212891
+422.JPEG,soda can,outdoor,night,2,1,cement floor,2048,1536,0.5587282180786133
+423.JPEG,soda can,outdoor,night,2,1,cement floor,2048,1536,0.5475482940673828
+424.JPEG,soda can,outdoor,night,0,2,black vinyl cushion,2048,1536,0.6125326156616211
+425.JPEG,soda can,outdoor,night,0,2,black vinyl cushion,2048,1536,0.5541048049926758
+426.JPEG,soda can,outdoor,night,0,2,black vinyl cushion,2048,1536,0.6808567047119141
+427.JPEG,soda can,outdoor,night,0,0,jute carpet,2048,1536,1.0530872344970703
+428.JPEG,soda can,outdoor,night,0,0,jute carpet,2048,1536,1.0116281509399414
+429.JPEG,soda can,outdoor,night,0,0,jute carpet,2048,1536,0.892364501953125
+430.JPEG,soda can,outdoor,night,0,1,cement floor,2048,1536,0.4830322265625
+431.JPEG,soda can,outdoor,night,0,1,cement floor,2048,1536,0.4987468719482422
+432.JPEG,soda can,outdoor,night,0,1,cement floor,2048,1536,0.4336090087890625
+433.JPEG,soda can,outdoor,night,1,2,black vinyl cushion,2048,1536,0.8004770278930664
+434.JPEG,soda can,outdoor,night,1,2,black vinyl cushion,2048,1536,0.7804031372070312
+435.JPEG,soda can,outdoor,night,1,2,black vinyl cushion,2048,1536,0.587066650390625
+436.JPEG,soda can,outdoor,night,1,1,cement floor,2048,1536,0.5193405151367188
+437.JPEG,soda can,outdoor,night,1,1,cement floor,2048,1536,0.49245357513427734
+438.JPEG,soda can,outdoor,night,1,1,cement floor,2048,1536,0.4446220397949219
+439.JPEG,soda can,outdoor,night,1,0,jute carpet,2048,1536,1.1539077758789062
+440.JPEG,soda can,outdoor,night,1,0,jute carpet,2048,1536,1.0844860076904297
+441.JPEG,soda can,outdoor,night,1,0,jute carpet,2048,1536,1.0484895706176758
+442.JPEG,soda can,outdoor,day,0,1,cement floor,2048,1536,0.42226505279541016
+443.JPEG,soda can,outdoor,day,0,1,cement floor,2048,1536,0.4311647415161133
+444.JPEG,soda can,outdoor,day,0,1,cement floor,2048,1536,0.4222249984741211
+445.JPEG,soda can,outdoor,day,0,2,black vinyl cushion,2048,1536,0.49544429779052734
+446.JPEG,soda can,outdoor,day,0,2,black vinyl cushion,2048,1536,0.5155305862426758
+447.JPEG,soda can,outdoor,day,0,2,black vinyl cushion,2048,1536,0.4977102279663086
+448.JPEG,soda can,outdoor,day,0,0,jute carpet,2048,1536,1.1706533432006836
+449.JPEG,soda can,outdoor,day,0,0,jute carpet,2048,1536,1.159811019897461
+450.JPEG,soda can,outdoor,day,0,0,jute carpet,2048,1536,1.1279468536376953
+451.JPEG,soda can,outdoor,day,2,1,cement floor,2048,1536,0.5084686279296875
+452.JPEG,soda can,outdoor,day,2,1,cement floor,2048,1536,0.5145502090454102
+453.JPEG,soda can,outdoor,day,2,1,cement floor,2048,1536,0.5130414962768555
+454.JPEG,soda can,outdoor,day,2,0,jute carpet,2048,1536,1.21722412109375
+455.JPEG,soda can,outdoor,day,2,0,jute carpet,2048,1536,1.1789569854736328
+456.JPEG,soda can,outdoor,day,2,0,jute carpet,2048,1536,1.1321420669555664
+457.JPEG,soda can,outdoor,day,2,2,black vinyl cushion,2048,1536,0.5911283493041992
+458.JPEG,soda can,outdoor,day,2,2,black vinyl cushion,2048,1536,0.43521595001220703
+459.JPEG,soda can,outdoor,day,2,2,black vinyl cushion,2048,1536,0.5936908721923828
+460.JPEG,soda can,outdoor,day,1,2,black vinyl cushion,2048,1536,0.4968700408935547
+461.JPEG,soda can,outdoor,day,1,2,black vinyl cushion,2048,1536,0.5587530136108398
+462.JPEG,soda can,outdoor,day,1,2,black vinyl cushion,2048,1536,0.5079164505004883
+463.JPEG,soda can,outdoor,day,1,1,cement floor,2048,1536,0.39788246154785156
+464.JPEG,soda can,outdoor,day,1,1,cement floor,2048,1536,0.3961067199707031
+465.JPEG,soda can,outdoor,day,1,1,cement floor,2048,1536,0.39606285095214844
+466.JPEG,soda can,outdoor,day,1,0,jute carpet,2048,1536,1.0721769332885742
+467.JPEG,soda can,outdoor,day,1,0,jute carpet,2048,1536,1.072052001953125
+468.JPEG,soda can,outdoor,day,1,0,jute carpet,2048,1536,1.108036994934082
+469.JPEG,lemon,indoor,day,1,0,jute carpet,2048,1536,1.4939374923706055
+470.JPEG,lemon,indoor,day,1,0,jute carpet,2048,1536,1.2929410934448242
+471.JPEG,lemon,indoor,day,1,0,jute carpet,2048,1536,1.5145626068115234
+472.JPEG,lemon,indoor,day,1,1, cement floor,2048,1536,0.46873950958251953
+473.JPEG,lemon,indoor,day,1,1, cement floor,2048,1536,0.4166603088378906
+474.JPEG,lemon,indoor,day,1,1, cement floor,2048,1536,0.46132564544677734
+475.JPEG,lemon,indoor,day,1,2, black vinyl cushion,2048,1536,0.6001272201538086
+476.JPEG,lemon,indoor,day,1,2, black vinyl cushion,2048,1536,0.5725784301757812
+477.JPEG,lemon,indoor,day,1,2, black vinyl cushion,2048,1536,0.585637092590332
+478.JPEG,lemon,indoor,day,2,2, black vinyl cushion,2048,1536,0.5138921737670898
+479.JPEG,lemon,indoor,day,2,2, black vinyl cushion,2048,1536,0.5487871170043945
+480.JPEG,lemon,indoor,day,2,2, black vinyl cushion,2048,1536,0.5174140930175781
+481.JPEG,lemon,indoor,day,2,1, cement floor,2048,1536,0.4800682067871094
+482.JPEG,lemon,indoor,day,2,1, cement floor,2048,1536,0.47706127166748047
+483.JPEG,lemon,indoor,day,2,1, cement floor,2048,1536,0.48592376708984375
+484.JPEG,lemon,indoor,day,2,0,jute carpet,2048,1536,1.3031854629516602
+485.JPEG,lemon,indoor,day,2,0,jute carpet,2048,1536,1.3833723068237305
+486.JPEG,lemon,indoor,day,2,0,jute carpet,2048,1536,1.273686408996582
+487.JPEG,lemon,indoor,day,0,2, black vinyl cushion,2048,1536,0.5367326736450195
+488.JPEG,lemon,indoor,day,0,2, black vinyl cushion,2048,1536,0.521876335144043
+489.JPEG,lemon,indoor,day,0,2, black vinyl cushion,2048,1536,0.5704917907714844
+490.JPEG,lemon,indoor,day,0,1, cement floor,2048,1536,0.4688882827758789
+491.JPEG,lemon,indoor,day,0,1, cement floor,2048,1536,0.48195838928222656
+492.JPEG,lemon,indoor,day,0,1, cement floor,2048,1536,0.4744606018066406
+493.JPEG,lemon,indoor,day,0,0,jute carpet,2048,1536,1.378096580505371
+494.JPEG,lemon,indoor,day,0,0,jute carpet,2048,1536,1.1513376235961914
+495.JPEG,lemon,indoor,day,0,0,jute carpet,2048,1536,1.1593551635742188
+496.JPEG,lemon,indoor,night,2,0,jute carpet,2048,1536,1.1025524139404297
+497.JPEG,lemon,indoor,night,2,0,jute carpet,2048,1536,1.191329002380371
+498.JPEG,lemon,indoor,night,2,0,jute carpet,2048,1536,1.3012733459472656
+499.JPEG,lemon,indoor,night,2,2, black vinyl cushion,2048,1536,0.6037921905517578
+500.JPEG,lemon,indoor,night,2,2, black vinyl cushion,2048,1536,0.5383691787719727
+501.JPEG,lemon,indoor,night,2,2, black vinyl cushion,2048,1536,0.5097274780273438
+502.JPEG,lemon,indoor,night,2,1, cement floor,2048,1536,0.5859403610229492
+503.JPEG,lemon,indoor,night,2,1, cement floor,2048,1536,0.5719261169433594
+504.JPEG,lemon,indoor,night,2,1, cement floor,2048,1536,0.5872859954833984
+505.JPEG,lemon,indoor,night,0,0,jute carpet,2048,1536,1.1890869140625
+506.JPEG,lemon,indoor,night,0,0,jute carpet,2048,1536,1.1928939819335938
+507.JPEG,lemon,indoor,night,0,0,jute carpet,2048,1536,1.2546815872192383
+508.JPEG,lemon,indoor,night,0,1, cement floor,2048,1536,0.6698541641235352
+509.JPEG,lemon,indoor,night,0,1, cement floor,2048,1536,0.6257038116455078
+510.JPEG,lemon,indoor,night,0,1, cement floor,2048,1536,0.6235523223876953
+511.JPEG,lemon,indoor,night,0,2, black vinyl cushion,2048,1536,0.7009210586547852
+512.JPEG,lemon,indoor,night,0,2, black vinyl cushion,2048,1536,0.7104883193969727
+513.JPEG,lemon,indoor,night,0,2, black vinyl cushion,2048,1536,0.6944561004638672
+514.JPEG,lemon,indoor,night,1,0,jute carpet,2048,1536,1.0972909927368164
+515.JPEG,lemon,indoor,night,1,0,jute carpet,2048,1536,1.1559228897094727
+516.JPEG,lemon,indoor,night,1,0,jute carpet,2048,1536,1.1654777526855469
+517.JPEG,lemon,indoor,night,1,1, cement floor,2048,1536,0.6097097396850586
+518.JPEG,lemon,indoor,night,1,1, cement floor,2048,1536,0.6021347045898438
+519.JPEG,lemon,indoor,night,1,1, cement floor,2048,1536,0.6103639602661133
+520.JPEG,lemon,indoor,night,1,2, black vinyl cushion,2048,1536,0.5705766677856445
+521.JPEG,lemon,indoor,night,1,2, black vinyl cushion,2048,1536,0.7108802795410156
+522.JPEG,lemon,indoor,night,1,2, black vinyl cushion,2048,1536,0.5693264007568359
+523.JPEG,lemon,outdoor,day,0,1,cement floor,2048,1536,0.41260814666748047
+524.JPEG,lemon,outdoor,day,0,1,cement floor,2048,1536,0.43251800537109375
+525.JPEG,lemon,outdoor,day,0,1,cement floor,2048,1536,0.43280029296875
+526.JPEG,lemon,outdoor,day,0,2,black vinyl cushion,2048,1536,0.5534877777099609
+527.JPEG,lemon,outdoor,day,0,2,black vinyl cushion,2048,1536,0.6055898666381836
+528.JPEG,lemon,outdoor,day,0,2,black vinyl cushion,2048,1536,0.5379791259765625
+529.JPEG,lemon,outdoor,day,0,0,jute carpet,2048,1536,1.4353656768798828
+530.JPEG,lemon,outdoor,day,0,0,jute carpet,2048,1536,1.2277441024780273
+531.JPEG,lemon,outdoor,day,0,0,jute carpet,2048,1536,1.3104524612426758
+532.JPEG,lemon,outdoor,day,1,0,jute carpet,2048,1536,1.6199359893798828
+533.JPEG,lemon,outdoor,day,1,0,jute carpet,2048,1536,1.6628446578979492
+534.JPEG,lemon,outdoor,day,1,0,jute carpet,2048,1536,1.6593704223632812
+535.JPEG,lemon,outdoor,day,1,1,cement floor,2048,1536,0.4285144805908203
+536.JPEG,lemon,outdoor,day,1,1,cement floor,2048,1536,0.44374752044677734
+537.JPEG,lemon,outdoor,day,1,1,cement floor,2048,1536,0.43614673614501953
+538.JPEG,lemon,outdoor,day,1,2,black vinyl cushion,2048,1536,0.5109348297119141
+539.JPEG,lemon,outdoor,day,1,2,black vinyl cushion,2048,1536,0.4997529983520508
+540.JPEG,lemon,outdoor,day,1,2,black vinyl cushion,2048,1536,0.49791431427001953
+541.JPEG,lemon,outdoor,day,2,1,cement floor,2048,1536,0.44586753845214844
+542.JPEG,lemon,outdoor,day,2,1,cement floor,2048,1536,0.41489124298095703
+543.JPEG,lemon,outdoor,day,2,1,cement floor,2048,1536,0.4086017608642578
+544.JPEG,lemon,outdoor,day,2,0,jute carpet,2048,1536,1.6110620498657227
+545.JPEG,lemon,outdoor,day,2,0,jute carpet,2048,1536,1.6252574920654297
+546.JPEG,lemon,outdoor,day,2,0,jute carpet,2048,1536,1.6155672073364258
+547.JPEG,lemon,outdoor,day,2,2,black vinyl cushion,2048,1536,0.5456829071044922
+548.JPEG,lemon,outdoor,day,2,2,black vinyl cushion,2048,1536,0.528874397277832
+549.JPEG,lemon,outdoor,day,2,2,black vinyl cushion,2048,1536,0.5239658355712891
+550.JPEG,lemon,outdoor,night,0,0,jute carpet,2048,1536,1.2069892883300781
+551.JPEG,lemon,outdoor,night,0,0,jute carpet,2048,1536,1.1688833236694336
+552.JPEG,lemon,outdoor,night,0,0,jute carpet,2048,1536,1.263319969177246
+553.JPEG,lemon,outdoor,night,0,1,cement floor,2048,1536,0.4674720764160156
+554.JPEG,lemon,outdoor,night,0,1,cement floor,2048,1536,0.47315120697021484
+555.JPEG,lemon,outdoor,night,0,1,cement floor,2048,1536,0.4039268493652344
+556.JPEG,lemon,outdoor,night,0,2,black vinyl cushion,2048,1536,0.8218717575073242
+557.JPEG,lemon,outdoor,night,0,2,black vinyl cushion,2048,1536,0.6409378051757812
+558.JPEG,lemon,outdoor,night,0,2,black vinyl cushion,2048,1536,0.7309103012084961
+559.JPEG,lemon,outdoor,night,1,1,cement floor,2048,1536,0.4491147994995117
+560.JPEG,lemon,outdoor,night,1,1,cement floor,2048,1536,0.4562091827392578
+561.JPEG,lemon,outdoor,night,1,1,cement floor,2048,1536,0.40275001525878906
+562.JPEG,lemon,outdoor,night,1,0,jute carpet,2048,1536,1.2065868377685547
+563.JPEG,lemon,outdoor,night,1,0,jute carpet,2048,1536,1.2091951370239258
+564.JPEG,lemon,outdoor,night,1,0,jute carpet,2048,1536,1.1959857940673828
+565.JPEG,lemon,outdoor,night,1,2,black vinyl cushion,2048,1536,0.5696744918823242
+566.JPEG,lemon,outdoor,night,1,2,black vinyl cushion,2048,1536,0.6812582015991211
+567.JPEG,lemon,outdoor,night,1,2,black vinyl cushion,2048,1536,0.6098308563232422
+568.JPEG,lemon,outdoor,night,2,2,black vinyl cushion,2048,1536,0.616145133972168
+569.JPEG,lemon,outdoor,night,2,2,black vinyl cushion,2048,1536,0.69818115234375
+570.JPEG,lemon,outdoor,night,2,2,black vinyl cushion,2048,1536,0.6293926239013672
+571.JPEG,lemon,outdoor,night,2,0,jute carpet,2048,1536,1.2254114151000977
+572.JPEG,lemon,outdoor,night,2,0,jute carpet,2048,1536,1.139969825744629
+573.JPEG,lemon,outdoor,night,2,0,jute carpet,2048,1536,1.1866188049316406
+574.JPEG,lemon,outdoor,night,2,1,cement floor,2048,1536,0.47696971893310547
+575.JPEG,lemon,outdoor,night,2,1,cement floor,2048,1536,0.3983268737792969
+576.JPEG,lemon,outdoor,night,2,1,cement floor,2048,1536,0.40352630615234375
+577.JPEG,tangerine,indoor,night,0,0,jute carpet,1536,2048,1.0579156875610352
+578.JPEG,tangerine,indoor,night,0,0,jute carpet,1536,2048,1.0623712539672852
+579.JPEG,tangerine,indoor,night,0,0,jute carpet,1536,2048,1.104813575744629
+580.JPEG,tangerine,indoor,night,0,1, cement floor,2048,1536,0.5945253372192383
+581.JPEG,tangerine,indoor,night,0,1, cement floor,2048,1536,0.5800085067749023
+582.JPEG,tangerine,indoor,night,0,1, cement floor,2048,1536,0.5813684463500977
+583.JPEG,tangerine,indoor,night,0,2, black vinyl cushion,2048,1536,0.6161861419677734
+584.JPEG,tangerine,indoor,night,0,2, black vinyl cushion,2048,1536,0.5776185989379883
+585.JPEG,tangerine,indoor,night,0,2, black vinyl cushion,2048,1536,0.49582672119140625
+586.JPEG,tangerine,indoor,night,2,2, black vinyl cushion,2048,1536,0.5044384002685547
+587.JPEG,tangerine,indoor,night,2,2, black vinyl cushion,2048,1536,0.5867547988891602
+588.JPEG,tangerine,indoor,night,2,2, black vinyl cushion,2048,1536,0.5961484909057617
+589.JPEG,tangerine,indoor,night,2,0,jute carpet,1536,2048,1.1772384643554688
+590.JPEG,tangerine,indoor,night,2,0,jute carpet,1536,2048,1.0676565170288086
+591.JPEG,tangerine,indoor,night,2,0,jute carpet,1536,2048,1.0524568557739258
+592.JPEG,tangerine,indoor,night,2,1, cement floor,2048,1536,0.6039543151855469
+593.JPEG,tangerine,indoor,night,2,1, cement floor,2048,1536,0.6045560836791992
+594.JPEG,tangerine,indoor,night,2,1, cement floor,2048,1536,0.5983905792236328
+595.JPEG,tangerine,indoor,night,1,2, black vinyl cushion,2048,1536,0.5694084167480469
+596.JPEG,tangerine,indoor,night,1,2, black vinyl cushion,2048,1536,0.5884494781494141
+597.JPEG,tangerine,indoor,night,1,2, black vinyl cushion,2048,1536,0.5649929046630859
+598.JPEG,tangerine,indoor,night,1,1, cement floor,2048,1536,0.5831012725830078
+599.JPEG,tangerine,indoor,night,1,1, cement floor,2048,1536,0.5611143112182617
+600.JPEG,tangerine,indoor,night,1,1, cement floor,2048,1536,0.5796146392822266
+601.JPEG,tangerine,indoor,night,1,0,jute carpet,1536,2048,1.1346054077148438
+602.JPEG,tangerine,indoor,night,1,0,jute carpet,1536,2048,1.1330194473266602
+603.JPEG,tangerine,indoor,night,1,0,jute carpet,1536,2048,0.9751272201538086
+604.JPEG,tangerine,indoor,day,0,1, cement floor,2048,1536,0.45760345458984375
+605.JPEG,tangerine,indoor,day,0,1, cement floor,2048,1536,0.44373607635498047
+606.JPEG,tangerine,indoor,day,0,1, cement floor,2048,1536,0.4653615951538086
+607.JPEG,tangerine,indoor,day,0,2, black vinyl cushion,2048,1536,0.48818206787109375
+608.JPEG,tangerine,indoor,day,0,2, black vinyl cushion,2048,1536,0.4472236633300781
+609.JPEG,tangerine,indoor,day,0,2, black vinyl cushion,2048,1536,0.4856595993041992
+610.JPEG,tangerine,indoor,day,0,0,jute carpet,2048,1536,1.1503314971923828
+611.JPEG,tangerine,indoor,day,0,0,jute carpet,2048,1536,1.115065574645996
+612.JPEG,tangerine,indoor,day,0,0,jute carpet,2048,1536,1.365004539489746
+613.JPEG,tangerine,indoor,day,1,1, cement floor,2048,1536,0.4946126937866211
+614.JPEG,tangerine,indoor,day,1,1, cement floor,2048,1536,0.45134735107421875
+615.JPEG,tangerine,indoor,day,1,1, cement floor,2048,1536,0.4745597839355469
+616.JPEG,tangerine,indoor,day,1,2, black vinyl cushion,2048,1536,0.4541606903076172
+617.JPEG,tangerine,indoor,day,1,2, black vinyl cushion,2048,1536,0.46705055236816406
+618.JPEG,tangerine,indoor,day,1,2, black vinyl cushion,2048,1536,0.4851341247558594
+619.JPEG,tangerine,indoor,day,1,0,jute carpet,2048,1536,1.3009052276611328
+620.JPEG,tangerine,indoor,day,1,0,jute carpet,2048,1536,1.1040544509887695
+621.JPEG,tangerine,indoor,day,1,0,jute carpet,2048,1536,1.0801515579223633
+622.JPEG,tangerine,indoor,day,2,0,jute carpet,2048,1536,1.3252620697021484
+623.JPEG,tangerine,indoor,day,2,0,jute carpet,2048,1536,1.1931648254394531
+624.JPEG,tangerine,indoor,day,2,0,jute carpet,2048,1536,1.2132673263549805
+625.JPEG,tangerine,indoor,day,2,1, cement floor,2048,1536,0.47211170196533203
+626.JPEG,tangerine,indoor,day,2,1, cement floor,2048,1536,0.4852790832519531
+627.JPEG,tangerine,indoor,day,2,1, cement floor,2048,1536,0.5219411849975586
+628.JPEG,tangerine,indoor,day,2,2, black vinyl cushion,2048,1536,0.47441673278808594
+629.JPEG,tangerine,indoor,day,2,2, black vinyl cushion,2048,1536,0.46007728576660156
+630.JPEG,tangerine,indoor,day,2,2, black vinyl cushion,2048,1536,0.5015983581542969
+631.JPEG,tangerine,outdoor,night,0,0,jute carpet,2048,1536,0.9446783065795898
+632.JPEG,tangerine,outdoor,night,0,0,jute carpet,2048,1536,0.868739128112793
+633.JPEG,tangerine,outdoor,night,0,0,jute carpet,2048,1536,0.9896221160888672
+634.JPEG,tangerine,outdoor,night,0,2,black vinyl cushion,2048,1536,0.4430866241455078
+635.JPEG,tangerine,outdoor,night,0,2,black vinyl cushion,2048,1536,0.5595855712890625
+636.JPEG,tangerine,outdoor,night,0,2,black vinyl cushion,2048,1536,0.6356878280639648
+637.JPEG,tangerine,outdoor,night,0,1,cement floor,2048,1536,0.4031057357788086
+638.JPEG,tangerine,outdoor,night,0,1,cement floor,2048,1536,0.4062204360961914
+639.JPEG,tangerine,outdoor,night,0,1,cement floor,2048,1536,0.45367431640625
+640.JPEG,tangerine,outdoor,night,2,0,jute carpet,2048,1536,0.7892847061157227
+641.JPEG,tangerine,outdoor,night,2,0,jute carpet,2048,1536,0.9250898361206055
+642.JPEG,tangerine,outdoor,night,2,0,jute carpet,2048,1536,0.99627685546875
+643.JPEG,tangerine,outdoor,night,2,2,black vinyl cushion,2048,1536,0.5680751800537109
+644.JPEG,tangerine,outdoor,night,2,2,black vinyl cushion,2048,1536,0.5528745651245117
+645.JPEG,tangerine,outdoor,night,2,2,black vinyl cushion,2048,1536,0.5102596282958984
+646.JPEG,tangerine,outdoor,night,2,1,cement floor,2048,1536,0.46837902069091797
+647.JPEG,tangerine,outdoor,night,2,1,cement floor,2048,1536,0.4824085235595703
+648.JPEG,tangerine,outdoor,night,2,1,cement floor,2048,1536,0.4700202941894531
+649.JPEG,tangerine,outdoor,night,1,0,jute carpet,2048,1536,0.9146976470947266
+650.JPEG,tangerine,outdoor,night,1,0,jute carpet,2048,1536,0.8412990570068359
+651.JPEG,tangerine,outdoor,night,1,0,jute carpet,2048,1536,0.8510456085205078
+652.JPEG,tangerine,outdoor,night,1,1,cement floor,2048,1536,0.4448270797729492
+653.JPEG,tangerine,outdoor,night,1,1,cement floor,2048,1536,0.4106912612915039
+654.JPEG,tangerine,outdoor,night,1,1,cement floor,2048,1536,0.4606809616088867
+655.JPEG,tangerine,outdoor,night,1,2,black vinyl cushion,2048,1536,0.672877311706543
+656.JPEG,tangerine,outdoor,night,1,2,black vinyl cushion,2048,1536,0.4987049102783203
+657.JPEG,tangerine,outdoor,night,1,2,black vinyl cushion,2048,1536,0.564448356628418
+658.JPEG,tangerine,outdoor,day,2,2,black vinyl cushion,2048,1536,0.5316839218139648
+659.JPEG,tangerine,outdoor,day,2,2,black vinyl cushion,2048,1536,0.5389089584350586
+660.JPEG,tangerine,outdoor,day,2,2,black vinyl cushion,2048,1536,0.5089740753173828
+661.JPEG,tangerine,outdoor,day,2,0,jute carpet,2048,1536,1.0505456924438477
+662.JPEG,tangerine,outdoor,day,2,0,jute carpet,2048,1536,1.2413301467895508
+663.JPEG,tangerine,outdoor,day,2,0,jute carpet,2048,1536,0.9829874038696289
+664.JPEG,tangerine,outdoor,day,2,1,cement floor,2048,1536,0.41538047790527344
+665.JPEG,tangerine,outdoor,day,2,1,cement floor,2048,1536,0.4151153564453125
+666.JPEG,tangerine,outdoor,day,2,1,cement floor,2048,1536,0.41431236267089844
+667.JPEG,tangerine,outdoor,day,1,2,black vinyl cushion,2048,1536,0.5626440048217773
+668.JPEG,tangerine,outdoor,day,1,2,black vinyl cushion,2048,1536,0.5687294006347656
+669.JPEG,tangerine,outdoor,day,1,2,black vinyl cushion,2048,1536,0.5627298355102539
+670.JPEG,tangerine,outdoor,day,1,1,cement floor,2048,1536,0.3884744644165039
+671.JPEG,tangerine,outdoor,day,1,1,cement floor,2048,1536,0.3889017105102539
+672.JPEG,tangerine,outdoor,day,1,1,cement floor,2048,1536,0.38674163818359375
+673.JPEG,tangerine,outdoor,day,1,0,jute carpet,2048,1536,1.4054441452026367
+674.JPEG,tangerine,outdoor,day,1,0,jute carpet,2048,1536,1.5414857864379883
+675.JPEG,tangerine,outdoor,day,1,0,jute carpet,2048,1536,1.566701889038086
+676.JPEG,tangerine,outdoor,day,0,1,cement floor,2048,1536,0.4151039123535156
+677.JPEG,tangerine,outdoor,day,0,1,cement floor,2048,1536,0.4124479293823242
+678.JPEG,tangerine,outdoor,day,0,1,cement floor,2048,1536,0.41172027587890625
+679.JPEG,tangerine,outdoor,day,0,0,jute carpet,2048,1536,1.178436279296875
+680.JPEG,tangerine,outdoor,day,0,0,jute carpet,2048,1536,1.100447654724121
+681.JPEG,tangerine,outdoor,day,0,0,jute carpet,2048,1536,1.257009506225586
+682.JPEG,tangerine,outdoor,day,0,2,black vinyl cushion,2048,1536,0.5329494476318359
+683.JPEG,tangerine,outdoor,day,0,2,black vinyl cushion,2048,1536,0.5616540908813477
+684.JPEG,tangerine,outdoor,day,0,2,black vinyl cushion,2048,1536,0.5700769424438477
+685.jpg,scissors,indoor,night,1,2,pink styrofoam,5312,2988,4.262180328369141
+686.jpg,scissors,indoor,night,1,2,pink styrofoam,5312,2988,4.337288856506348
+687.jpg,scissors,indoor,night,1,2,pink styrofoam,5312,2988,4.31906795501709
+688.jpg,scissors,indoor,night,1,0,blue sheet of paper,5312,2988,3.7288618087768555
+689.jpg,scissors,indoor,night,1,0,blue sheet of paper,5312,2988,3.5977611541748047
+690.jpg,scissors,indoor,night,1,0,blue sheet of paper,5312,2988,3.570690155029297
+691.jpg,scissors,indoor,night,1,1,wooden board,5312,2988,4.371308326721191
+692.jpg,scissors,indoor,night,1,1,wooden board,5312,2988,4.712950706481934
+693.jpg,scissors,indoor,night,1,1,wooden board,5312,2988,4.519570350646973
+694.jpg,scissors,indoor,night,2,2,pink styrofoam,5312,2988,4.602402687072754
+695.jpg,scissors,indoor,night,2,2,pink styrofoam,5312,2988,4.595914840698242
+696.jpg,scissors,indoor,night,2,2,pink styrofoam,5312,2988,4.62784481048584
+697.jpg,scissors,indoor,night,2,1,wooden board,2988,5312,4.908896446228027
+698.jpg,scissors,indoor,night,2,1,wooden board,2988,5312,4.6330718994140625
+699.jpg,scissors,indoor,night,2,1,wooden board,2988,5312,4.416630744934082
+700.jpg,scissors,indoor,night,2,0,blue sheet of paper,2988,5312,3.5603437423706055
+701.jpg,scissors,indoor,night,2,0,blue sheet of paper,2988,5312,3.6870498657226562
+702.jpg,scissors,indoor,night,2,0,blue sheet of paper,2988,5312,3.5181074142456055
+703.jpg,scissors,indoor,night,0,2,pink styrofoam,5312,2988,4.536795616149902
+704.jpg,scissors,indoor,night,0,2,pink styrofoam,5312,2988,4.466950416564941
+705.jpg,scissors,indoor,night,0,2,pink styrofoam,5312,2988,4.636721611022949
+706.jpg,scissors,indoor,night,0,0,blue sheet of paper,5312,2988,3.6986169815063477
+707.jpg,scissors,indoor,night,0,0,blue sheet of paper,5312,2988,3.6833667755126953
+708.jpg,scissors,indoor,night,0,0,blue sheet of paper,5312,2988,3.70599365234375
+709.jpg,scissors,indoor,night,0,1,wooden board,5312,2988,4.277978897094727
+710.jpg,scissors,indoor,night,0,1,wooden board,5312,2988,4.605899810791016
+711.jpg,scissors,indoor,night,0,1,wooden board,5312,2988,4.901857376098633
+712.jpg,scissors,indoor,day,0,2,pink styrofoam,5312,2988,3.79339599609375
+713.jpg,scissors,indoor,day,0,2,pink styrofoam,5312,2988,3.729037284851074
+714.jpg,scissors,indoor,day,0,2,pink styrofoam,5312,2988,3.7170495986938477
+715.jpg,scissors,indoor,day,0,1,wooden board,5312,2988,4.315328598022461
+716.jpg,scissors,indoor,day,0,1,wooden board,5312,2988,4.241142272949219
+717.jpg,scissors,indoor,day,0,1,wooden board,5312,2988,3.9638452529907227
+718.jpg,scissors,indoor,day,0,0,blue sheet of paper,5312,2988,3.1293115615844727
+719.jpg,scissors,indoor,day,0,0,blue sheet of paper,5312,2988,3.1617965698242188
+720.jpg,scissors,indoor,day,0,0,blue sheet of paper,5312,2988,3.117587089538574
+721.jpg,scissors,indoor,day,1,0,blue sheet of paper,5312,2988,3.2045135498046875
+722.jpg,scissors,indoor,day,1,0,blue sheet of paper,5312,2988,3.264132499694824
+723.jpg,scissors,indoor,day,1,0,blue sheet of paper,5312,2988,3.2917556762695312
+724.jpg,scissors,indoor,day,1,2,pink styrofoam,5312,2988,4.451866149902344
+725.jpg,scissors,indoor,day,1,2,pink styrofoam,5312,2988,4.830226898193359
+726.jpg,scissors,indoor,day,1,2,pink styrofoam,5312,2988,4.789490699768066
+727.jpg,scissors,indoor,day,1,1,wooden board,5312,2988,4.006107330322266
+728.jpg,scissors,indoor,day,1,1,wooden board,5312,2988,4.56390380859375
+729.jpg,scissors,indoor,day,1,1,wooden board,5312,2988,4.260134696960449
+730.jpg,scissors,indoor,day,2,2,pink styrofoam,5312,2988,4.451115608215332
+731.jpg,scissors,indoor,day,2,2,pink styrofoam,5312,2988,4.570852279663086
+732.jpg,scissors,indoor,day,2,2,pink styrofoam,5312,2988,5.270666122436523
+733.jpg,scissors,indoor,day,2,1,wooden board,5312,2988,4.327817916870117
+734.jpg,scissors,indoor,day,2,1,wooden board,5312,2988,4.319890022277832
+735.jpg,scissors,indoor,day,2,1,wooden board,5312,2988,4.221402168273926
+736.jpg,scissors,indoor,day,2,0,blue sheet of paper,5312,2988,3.106827735900879
+737.jpg,scissors,indoor,day,2,0,blue sheet of paper,5312,2988,3.106142997741699
+738.jpg,scissors,indoor,day,2,0,blue sheet of paper,5312,2988,3.129091262817383
+739.jpg,scissors,outdoor,night,0,0,blue sheet of paper,5312,2988,3.7856998443603516
+740.jpg,scissors,outdoor,night,0,0,blue sheet of paper,5312,2988,3.8100643157958984
+741.jpg,scissors,outdoor,night,0,0,blue sheet of paper,5312,2988,3.8181591033935547
+742.jpg,scissors,outdoor,night,0,2,pink styrofoam,5312,2988,2.8584327697753906
+743.jpg,scissors,outdoor,night,0,2,pink styrofoam,5312,2988,2.865110397338867
+744.jpg,scissors,outdoor,night,0,2,pink styrofoam,5312,2988,2.8892879486083984
+745.jpg,scissors,outdoor,night,0,1,wooden board,2988,5312,4.295925140380859
+746.jpg,scissors,outdoor,night,0,1,wooden board,2988,5312,4.521649360656738
+747.jpg,scissors,outdoor,night,0,1,wooden board,2988,5312,4.708224296569824
+748.jpg,scissors,outdoor,night,2,2,pink styrofoam,5312,2988,2.6319446563720703
+749.jpg,scissors,outdoor,night,2,2,pink styrofoam,5312,2988,2.8515186309814453
+750.jpg,scissors,outdoor,night,2,2,pink styrofoam,5312,2988,2.830842971801758
+751.jpg,scissors,outdoor,night,2,0,blue sheet of paper,5312,2988,4.081242561340332
+752.jpg,scissors,outdoor,night,2,0,blue sheet of paper,5312,2988,3.972269058227539
+753.jpg,scissors,outdoor,night,2,0,blue sheet of paper,5312,2988,3.9981555938720703
+754.jpg,scissors,outdoor,night,2,1,wooden board,2988,5312,4.423524856567383
+755.jpg,scissors,outdoor,night,2,1,wooden board,2988,5312,4.418452262878418
+756.jpg,scissors,outdoor,night,2,1,wooden board,2988,5312,4.558743476867676
+757.jpg,scissors,outdoor,night,1,0,blue sheet of paper,2988,5312,4.226666450500488
+758.jpg,scissors,outdoor,night,1,0,blue sheet of paper,2988,5312,4.222602844238281
+759.jpg,scissors,outdoor,night,1,0,blue sheet of paper,2988,5312,4.207286834716797
+760.jpg,scissors,outdoor,night,1,1,wooden board,2988,5312,4.623740196228027
+761.jpg,scissors,outdoor,night,1,1,wooden board,2988,5312,4.54637336730957
+762.jpg,scissors,outdoor,night,1,1,wooden board,2988,5312,4.502443313598633
+763.jpg,scissors,outdoor,night,1,2,pink styrofoam,5312,2988,2.9560251235961914
+764.jpg,scissors,outdoor,night,1,2,pink styrofoam,5312,2988,2.9335403442382812
+765.jpg,scissors,outdoor,night,1,2,pink styrofoam,5312,2988,2.9162893295288086
+766.jpg,scissors,outdoor,day,0,2,pink styrofoam,5312,2988,4.586895942687988
+767.jpg,scissors,outdoor,day,0,2,pink styrofoam,5312,2988,5.539053916931152
+768.jpg,scissors,outdoor,day,0,2,pink styrofoam,5312,2988,4.093461990356445
+769.jpg,scissors,outdoor,day,0,0,blue sheet of paper,2988,5312,3.095425605773926
+770.jpg,scissors,outdoor,day,0,0,blue sheet of paper,2988,5312,3.0830564498901367
+771.jpg,scissors,outdoor,day,0,0,blue sheet of paper,2988,5312,3.068857192993164
+772.jpg,scissors,outdoor,day,0,1,wooden board,5312,2988,4.3623552322387695
+773.jpg,scissors,outdoor,day,0,1,wooden board,5312,2988,4.890398025512695
+774.jpg,scissors,outdoor,day,0,1,wooden board,5312,2988,4.701175689697266
+775.jpg,scissors,outdoor,day,2,0,blue sheet of paper,5312,2988,3.034891128540039
+776.jpg,scissors,outdoor,day,2,0,blue sheet of paper,5312,2988,3.065814971923828
+777.jpg,scissors,outdoor,day,2,0,blue sheet of paper,5312,2988,3.0981836318969727
+778.jpg,scissors,outdoor,day,2,1,wooden board,5312,2988,3.762216567993164
+779.jpg,scissors,outdoor,day,2,1,wooden board,5312,2988,3.95481014251709
+780.jpg,scissors,outdoor,day,2,1,wooden board,5312,2988,3.9703617095947266
+781.jpg,scissors,outdoor,day,2,2,pink styrofoam,5312,2988,4.795773506164551
+782.jpg,scissors,outdoor,day,2,2,pink styrofoam,5312,2988,4.272069931030273
+783.jpg,scissors,outdoor,day,2,2,pink styrofoam,5312,2988,5.782529830932617
+784.jpg,scissors,outdoor,day,1,1,wooden board,5312,2988,4.31949520111084
+785.jpg,scissors,outdoor,day,1,1,wooden board,5312,2988,4.0755767822265625
+786.jpg,scissors,outdoor,day,1,1,wooden board,5312,2988,3.952395439147949
+787.jpg,scissors,outdoor,day,1,0,blue sheet of paper,2988,5312,3.0847063064575195
+788.jpg,scissors,outdoor,day,1,0,blue sheet of paper,2988,5312,3.0723695755004883
+789.jpg,scissors,outdoor,day,1,0,blue sheet of paper,2988,5312,3.1051321029663086
+790.jpg,scissors,outdoor,day,1,2,pink styrofoam,2988,5312,4.86546516418457
+791.jpg,scissors,outdoor,day,1,2,pink styrofoam,2988,5312,4.888428688049316
+792.jpg,scissors,outdoor,day,1,2,pink styrofoam,2988,5312,4.145732879638672
+793.jpg,sunscreen,indoor,day,0,2,black polyester fabric,2988,5312,2.328866958618164
+794.jpg,sunscreen,indoor,day,0,2,black polyester fabric,2988,5312,2.341719627380371
+795.jpg,sunscreen,indoor,day,0,2,black polyester fabric,2988,5312,2.345418930053711
+796.jpg,sunscreen,indoor,day,0,0,sheet of paper,2988,5312,3.0929603576660156
+797.jpg,sunscreen,indoor,day,0,0,sheet of paper,2988,5312,3.118410110473633
+798.jpg,sunscreen,indoor,day,0,0,sheet of paper,2988,5312,3.1104745864868164
+799.jpg,sunscreen,indoor,day,0,1,wooden board,5312,2988,3.5139780044555664
+800.jpg,sunscreen,indoor,day,0,1,wooden board,5312,2988,3.5952062606811523
+801.jpg,sunscreen,indoor,day,0,1,wooden board,5312,2988,3.7110824584960938
+802.jpg,sunscreen,indoor,day,2,0,sheet of paper,2988,5312,3.3601036071777344
+803.jpg,sunscreen,indoor,day,2,0,sheet of paper,2988,5312,3.370990753173828
+805.jpg,sunscreen,indoor,day,2,1,wooden board,5312,2988,3.594496726989746
+806.jpg,sunscreen,indoor,day,2,1,wooden board,5312,2988,3.526686668395996
+807.jpg,sunscreen,indoor,day,2,1,wooden board,5312,2988,3.6813716888427734
+808.jpg,sunscreen,indoor,day,2,2,black polyester fabric,2988,5312,2.522113800048828
+809.jpg,sunscreen,indoor,day,2,2,black polyester fabric,2988,5312,2.437382698059082
+810.jpg,sunscreen,indoor,day,2,2,black polyester fabric,2988,5312,2.42327880859375
+811.jpg,sunscreen,indoor,day,1,0,sheet of paper,2988,5312,3.3326969146728516
+812.jpg,sunscreen,indoor,day,1,0,sheet of paper,2988,5312,3.3153038024902344
+813.jpg,sunscreen,indoor,day,1,0,sheet of paper,2988,5312,3.355288505554199
+814.jpg,sunscreen,indoor,day,1,1,wooden board,5312,2988,3.6414318084716797
+815.jpg,sunscreen,indoor,day,1,1,wooden board,5312,2988,3.802323341369629
+816.jpg,sunscreen,indoor,day,1,1,wooden board,5312,2988,3.860133171081543
+817.jpg,sunscreen,indoor,day,1,2,black polyester fabric,2988,5312,2.5623083114624023
+818.jpg,sunscreen,indoor,day,1,2,black polyester fabric,2988,5312,2.567136764526367
+819.jpg,sunscreen,indoor,day,1,2,black polyester fabric,2988,5312,2.5472898483276367
+820.jpg,sunscreen,indoor,night,1,2,black polyester fabric,5312,2988,2.399517059326172
+821.jpg,sunscreen,indoor,night,1,2,black polyester fabric,5312,2988,2.4743385314941406
+822.jpg,sunscreen,indoor,night,1,2,black polyester fabric,5312,2988,2.733316421508789
+823.jpg,sunscreen,indoor,night,1,1,wooden board,2988,5312,4.224278450012207
+824.jpg,sunscreen,indoor,night,1,1,wooden board,2988,5312,4.302584648132324
+825.jpg,sunscreen,indoor,night,1,1,wooden board,2988,5312,4.373995780944824
+826.jpg,sunscreen,indoor,night,1,0,sheet of paper,5312,2988,3.6240835189819336
+827.jpg,sunscreen,indoor,night,1,0,sheet of paper,5312,2988,3.666684150695801
+828.jpg,sunscreen,indoor,night,1,0,sheet of paper,5312,2988,3.73671817779541
+829.jpg,sunscreen,indoor,night,2,1,wooden board,2988,5312,4.066978454589844
+830.jpg,sunscreen,indoor,night,2,1,wooden board,2988,5312,4.183721542358398
+831.jpg,sunscreen,indoor,night,2,1,wooden board,2988,5312,4.422297477722168
+832.jpg,sunscreen,indoor,night,2,2,black polyester fabric,5312,2988,2.4926633834838867
+833.jpg,sunscreen,indoor,night,2,2,black polyester fabric,5312,2988,2.411942481994629
+834.jpg,sunscreen,indoor,night,2,2,black polyester fabric,5312,2988,2.5933713912963867
+835.jpg,sunscreen,indoor,night,2,0,sheet of paper,5312,2988,3.6887474060058594
+836.jpg,sunscreen,indoor,night,2,0,sheet of paper,5312,2988,3.694289207458496
+837.jpg,sunscreen,indoor,night,2,0,sheet of paper,5312,2988,3.6977338790893555
+838.jpg,sunscreen,indoor,night,0,0,sheet of paper,5312,2988,3.6509504318237305
+839.jpg,sunscreen,indoor,night,0,0,sheet of paper,5312,2988,3.6399707794189453
+840.jpg,sunscreen,indoor,night,0,0,sheet of paper,5312,2988,3.6525840759277344
+841.jpg,sunscreen,indoor,night,0,1,wooden board,5312,2988,4.388385772705078
+842.jpg,sunscreen,indoor,night,0,1,wooden board,5312,2988,4.143062591552734
+843.jpg,sunscreen,indoor,night,0,1,wooden board,5312,2988,4.39439582824707
+844.jpg,sunscreen,indoor,night,0,2,black polyester fabric,5312,2988,2.416274070739746
+845.jpg,sunscreen,indoor,night,0,2,black polyester fabric,5312,2988,2.385622978210449
+846.jpg,sunscreen,indoor,night,0,2,black polyester fabric,5312,2988,2.3682680130004883
+847.jpg,sunscreen,outdoor,day,1,1,wooden board,5312,2988,3.9600019454956055
+848.jpg,sunscreen,outdoor,day,1,1,wooden board,5312,2988,4.174748420715332
+849.jpg,sunscreen,outdoor,day,1,1,wooden board,5312,2988,4.108559608459473
+850.jpg,sunscreen,outdoor,day,1,2,black polyester fabric,5312,2988,3.0703115463256836
+851.jpg,sunscreen,outdoor,day,1,2,black polyester fabric,5312,2988,3.149982452392578
+852.jpg,sunscreen,outdoor,day,1,2,black polyester fabric,5312,2988,3.1728811264038086
+853.jpg,sunscreen,outdoor,day,1,0,sheet of paper,5312,2988,3.087411880493164
+854.jpg,sunscreen,outdoor,day,1,0,sheet of paper,5312,2988,3.0865955352783203
+855.jpg,sunscreen,outdoor,day,1,0,sheet of paper,5312,2988,3.085906982421875
+856.jpg,sunscreen,outdoor,day,0,2,black polyester fabric,5312,2988,2.9152297973632812
+857.jpg,sunscreen,outdoor,day,0,2,black polyester fabric,5312,2988,2.968916893005371
+858.jpg,sunscreen,outdoor,day,0,2,black polyester fabric,5312,2988,2.9711532592773438
+859.jpg,sunscreen,outdoor,day,0,0,sheet of paper,5312,2988,3.0324525833129883
+860.jpg,sunscreen,outdoor,day,0,0,sheet of paper,5312,2988,3.0386857986450195
+861.jpg,sunscreen,outdoor,day,0,0,sheet of paper,5312,2988,3.028040885925293
+862.jpg,sunscreen,outdoor,day,0,1,wooden board,5312,2988,3.9801025390625
+863.jpg,sunscreen,outdoor,day,0,1,wooden board,5312,2988,3.9748687744140625
+864.jpg,sunscreen,outdoor,day,0,1,wooden board,5312,2988,4.015793800354004
+865.jpg,sunscreen,outdoor,day,2,0,sheet of paper,5312,2988,3.1078977584838867
+866.jpg,sunscreen,outdoor,day,2,0,sheet of paper,5312,2988,3.1153392791748047
+867.jpg,sunscreen,outdoor,day,2,0,sheet of paper,5312,2988,3.12872314453125
+868.jpg,sunscreen,outdoor,day,2,1,wooden board,5312,2988,3.3537425994873047
+869.jpg,sunscreen,outdoor,day,2,1,wooden board,5312,2988,3.649367332458496
+870.jpg,sunscreen,outdoor,day,2,1,wooden board,5312,2988,3.60714054107666
+871.jpg,sunscreen,outdoor,day,2,2,black polyester fabric,5312,2988,3.24788761138916
+872.jpg,sunscreen,outdoor,day,2,2,black polyester fabric,5312,2988,3.4181222915649414
+873.jpg,sunscreen,outdoor,day,2,2,black polyester fabric,5312,2988,3.6703691482543945
+874.jpg,sunscreen,outdoor,night,0,0,sheet of paper,5312,2988,4.378237724304199
+875.jpg,sunscreen,outdoor,night,0,0,sheet of paper,5312,2988,4.361481666564941
+876.jpg,sunscreen,outdoor,night,0,0,sheet of paper,5312,2988,4.355243682861328
+877.jpg,sunscreen,outdoor,night,0,2,black polyester fabric,5312,2988,2.2110042572021484
+878.jpg,sunscreen,outdoor,night,0,2,black polyester fabric,5312,2988,2.237748146057129
+879.jpg,sunscreen,outdoor,night,0,2,black polyester fabric,5312,2988,2.2711286544799805
+880.jpg,sunscreen,outdoor,night,0,1,wooden board,5312,2988,4.3919878005981445
+881.jpg,sunscreen,outdoor,night,0,1,wooden board,5312,2988,4.406022071838379
+882.jpg,sunscreen,outdoor,night,0,1,wooden board,5312,2988,4.340538024902344
+883.jpg,sunscreen,outdoor,night,1,1,wooden board,5312,2988,4.380133628845215
+884.jpg,sunscreen,outdoor,night,1,1,wooden board,5312,2988,4.437249183654785
+885.jpg,sunscreen,outdoor,night,1,1,wooden board,5312,2988,4.178103446960449
+886.jpg,sunscreen,outdoor,night,1,0,sheet of paper,5312,2988,4.496957778930664
+887.jpg,sunscreen,outdoor,night,1,0,sheet of paper,5312,2988,4.377337455749512
+888.jpg,sunscreen,outdoor,night,1,0,sheet of paper,5312,2988,4.372220993041992
+889.jpg,sunscreen,outdoor,night,1,2,black polyester fabric,5312,2988,2.593791961669922
+890.jpg,sunscreen,outdoor,night,1,2,black polyester fabric,5312,2988,2.35214900970459
+891.jpg,sunscreen,outdoor,night,1,2,black polyester fabric,5312,2988,2.2849979400634766
+892.jpg,sunscreen,outdoor,night,2,0,sheet of paper,5312,2988,4.4326934814453125
+893.jpg,sunscreen,outdoor,night,2,0,sheet of paper,5312,2988,4.422911643981934
+894.jpg,sunscreen,outdoor,night,2,0,sheet of paper,5312,2988,4.434945106506348
+895.jpg,sunscreen,outdoor,night,2,2,black polyester fabric,5312,2988,2.2332029342651367
+896.jpg,sunscreen,outdoor,night,2,2,black polyester fabric,5312,2988,2.316617012023926
+897.jpg,sunscreen,outdoor,night,2,2,black polyester fabric,5312,2988,2.3356895446777344
+898.jpg,sunscreen,outdoor,night,2,1,wooden board,5312,2988,4.365464210510254
+899.jpg,sunscreen,outdoor,night,2,1,wooden board,5312,2988,4.2946367263793945
+900.jpg,sunscreen,outdoor,night,2,1,wooden board,5312,2988,4.272774696350098
+901.jpg,clothespin,indoor,day,0,0,sheet of paper,5312,2988,2.9632444381713867
+902.jpg,clothespin,indoor,day,0,0,sheet of paper,5312,2988,2.974346160888672
+903.jpg,clothespin,indoor,day,0,0,sheet of paper,5312,2988,3.308995246887207
+904.jpg,clothespin,indoor,day,0,1,wooden board,5312,2988,4.318027496337891
+905.jpg,clothespin,indoor,day,0,1,wooden board,5312,2988,3.9729089736938477
+906.jpg,clothespin,indoor,day,0,1,wooden board,5312,2988,4.270195960998535
+907.jpg,clothespin,indoor,day,0,2,black polyester fabric,5312,2988,4.4389848709106445
+908.jpg,clothespin,indoor,day,0,2,black polyester fabric,5312,2988,6.698930740356445
+909.jpg,clothespin,indoor,day,0,2,black polyester fabric,5312,2988,6.121259689331055
+910.jpg,clothespin,indoor,day,1,0,sheet of paper,5312,2988,2.927578926086426
+911.jpg,clothespin,indoor,day,1,0,sheet of paper,5312,2988,2.9160051345825195
+912.jpg,clothespin,indoor,day,1,0,sheet of paper,5312,2988,2.9139938354492188
+913.jpg,clothespin,indoor,day,1,1,wooden board,5312,2988,4.306648254394531
+914.jpg,clothespin,indoor,day,1,1,wooden board,5312,2988,4.088231086730957
+915.jpg,clothespin,indoor,day,1,1,wooden board,5312,2988,4.341309547424316
+916.jpg,clothespin,indoor,day,1,2,black polyester fabric,5312,2988,4.384020805358887
+917.jpg,clothespin,indoor,day,1,2,black polyester fabric,5312,2988,5.93729305267334
+918.jpg,clothespin,indoor,day,1,2,black polyester fabric,5312,2988,5.79630184173584
+919.jpg,clothespin,indoor,day,2,0,sheet of paper,5312,2988,3.0495996475219727
+920.jpg,clothespin,indoor,day,2,0,sheet of paper,5312,2988,3.144892692565918
+921.jpg,clothespin,indoor,day,2,0,sheet of paper,5312,2988,3.1519603729248047
+922.jpg,clothespin,indoor,day,2,1,wooden board,5312,2988,4.387261390686035
+923.jpg,clothespin,indoor,day,2,1,wooden board,5312,2988,4.320919990539551
+924.jpg,clothespin,indoor,day,2,1,wooden board,5312,2988,3.880263328552246
+925.jpg,clothespin,indoor,day,2,2,black polyester fabric,5312,2988,5.253805160522461
+926.jpg,clothespin,indoor,day,2,2,black polyester fabric,5312,2988,4.873766899108887
+927.jpg,clothespin,indoor,day,2,2,black polyester fabric,5312,2988,5.553243637084961
+928.jpg,clothespin,indoor,night,0,0,sheet of paper,5312,2988,3.542325019836426
+929.jpg,clothespin,indoor,night,0,0,sheet of paper,5312,2988,3.5504236221313477
+930.jpg,clothespin,indoor,night,0,0,sheet of paper,5312,2988,3.6087732315063477
+931.jpg,clothespin,indoor,night,0,1,wooden board,2988,5312,4.783181190490723
+932.jpg,clothespin,indoor,night,0,1,wooden board,2988,5312,5.228368759155273
+933.jpg,clothespin,indoor,night,0,1,wooden board,2988,5312,5.272739410400391
+934.jpg,clothespin,indoor,night,0,2,black polyester fabric,5312,2988,4.702780723571777
+935.jpg,clothespin,indoor,night,0,2,black polyester fabric,5312,2988,4.719669342041016
+936.jpg,clothespin,indoor,night,0,2,black polyester fabric,5312,2988,4.684699058532715
+937.jpg,clothespin,indoor,night,1,0,sheet of paper,5312,2988,3.653571128845215
+938.jpg,clothespin,indoor,night,1,0,sheet of paper,5312,2988,3.6644296646118164
+939.jpg,clothespin,indoor,night,1,0,sheet of paper,5312,2988,3.651681900024414
+940.jpg,clothespin,indoor,night,1,1,wooden board,5312,2988,5.52225399017334
+941.jpg,clothespin,indoor,night,1,1,wooden board,5312,2988,4.457852363586426
+942.jpg,clothespin,indoor,night,1,1,wooden board,5312,2988,4.120152473449707
+943.jpg,clothespin,indoor,night,1,2,black polyester fabric,5312,2988,4.6898345947265625
+944.jpg,clothespin,indoor,night,1,2,black polyester fabric,5312,2988,4.612152099609375
+945.jpg,clothespin,indoor,night,1,2,black polyester fabric,5312,2988,4.66234016418457
+946.jpg,clothespin,indoor,night,2,0,sheet of paper,5312,2988,3.6309289932250977
+947.jpg,clothespin,indoor,night,2,0,sheet of paper,5312,2988,3.5786609649658203
+948.jpg,clothespin,indoor,night,2,0,sheet of paper,5312,2988,3.579540252685547
+949.jpg,clothespin,indoor,night,2,1,wooden board,5312,2988,4.472966194152832
+950.jpg,clothespin,indoor,night,2,1,wooden board,5312,2988,4.245174407958984
+951.jpg,clothespin,indoor,night,2,1,wooden board,5312,2988,4.336437225341797
+952.jpg,clothespin,indoor,night,2,2,black polyester fabric,5312,2988,4.642587661743164
+953.jpg,clothespin,indoor,night,2,2,black polyester fabric,5312,2988,4.725918769836426
+954.jpg,clothespin,indoor,night,2,2,black polyester fabric,5312,2988,4.778872489929199
+955.jpg,clothespin,outdoor,day,0,0,sheet of paper,5312,2988,3.0253334045410156
+956.jpg,clothespin,outdoor,day,0,0,sheet of paper,5312,2988,2.917461395263672
+957.jpg,clothespin,outdoor,day,0,0,sheet of paper,5312,2988,2.9509220123291016
+958.jpg,clothespin,outdoor,day,0,1,wooden board,5312,2988,3.620558738708496
+959.jpg,clothespin,outdoor,day,0,1,wooden board,5312,2988,4.117847442626953
+960.jpg,clothespin,outdoor,day,0,1,wooden board,5312,2988,4.3905181884765625
+961.jpg,clothespin,outdoor,day,0,2,black polyester fabric,5312,2988,5.496723175048828
+962.jpg,clothespin,outdoor,day,0,2,black polyester fabric,5312,2988,6.917418479919434
+963.jpg,clothespin,outdoor,day,0,2,black polyester fabric,5312,2988,4.944098472595215
+964.jpg,clothespin,outdoor,day,1,0,sheet of paper,5312,2988,2.995706558227539
+965.jpg,clothespin,outdoor,day,1,0,sheet of paper,5312,2988,2.9784507751464844
+966.jpg,clothespin,outdoor,day,1,0,sheet of paper,5312,2988,2.9787254333496094
+967.jpg,clothespin,outdoor,day,1,1,wooden board,5312,2988,3.5764055252075195
+968.jpg,clothespin,outdoor,day,1,1,wooden board,5312,2988,3.2458038330078125
+969.jpg,clothespin,outdoor,day,1,1,wooden board,5312,2988,3.8322553634643555
+970.jpg,clothespin,outdoor,day,1,2,black polyester fabric,5312,2988,8.020276069641113
+971.jpg,clothespin,outdoor,day,1,2,black polyester fabric,5312,2988,7.341997146606445
+972.jpg,clothespin,outdoor,day,1,2,black polyester fabric,5312,2988,7.160617828369141
+973.jpg,clothespin,outdoor,day,2,0,sheet of paper,5312,2988,3.0103845596313477
+974.jpg,clothespin,outdoor,day,2,0,sheet of paper,5312,2988,3.010268211364746
+975.jpg,clothespin,outdoor,day,2,0,sheet of paper,5312,2988,2.964508056640625
+976.jpg,clothespin,outdoor,day,2,1,wooden board,5312,2988,3.822214126586914
+977.jpg,clothespin,outdoor,day,2,1,wooden board,5312,2988,4.444880485534668
+978.jpg,clothespin,outdoor,day,2,1,wooden board,5312,2988,3.7739429473876953
+979.jpg,clothespin,outdoor,day,2,2,black polyester fabric,5312,2988,4.42399787902832
+980.jpg,clothespin,outdoor,day,2,2,black polyester fabric,5312,2988,4.947967529296875
+981.jpg,clothespin,outdoor,day,2,2,black polyester fabric,5312,2988,6.943323135375977
+982.jpg,clothespin,outdoor,night,0,0,sheet of paper,5312,2988,4.301820755004883
+983.jpg,clothespin,outdoor,night,0,0,sheet of paper,5312,2988,4.224905014038086
+984.jpg,clothespin,outdoor,night,0,0,sheet of paper,5312,2988,4.216169357299805
+985.jpg,clothespin,outdoor,night,0,1,wooden board,2988,5312,4.912622451782227
+986.jpg,clothespin,outdoor,night,0,1,wooden board,2988,5312,4.846282958984375
+987.jpg,clothespin,outdoor,night,0,1,wooden board,2988,5312,5.0326690673828125
+988.jpg,clothespin,outdoor,night,0,2,black polyester fabric,5312,2988,2.6610918045043945
+989.jpg,clothespin,outdoor,night,0,2,black polyester fabric,5312,2988,2.6438560485839844
+990.jpg,clothespin,outdoor,night,0,2,black polyester fabric,5312,2988,2.7133588790893555
+991.jpg,clothespin,outdoor,night,1,0,sheet of paper,5312,2988,4.248133659362793
+992.jpg,clothespin,outdoor,night,1,0,sheet of paper,5312,2988,4.301398277282715
+993.jpg,clothespin,outdoor,night,1,0,sheet of paper,5312,2988,4.3034563064575195
+994.jpg,clothespin,outdoor,night,1,1,wooden board,2988,5312,4.916192054748535
+995.jpg,clothespin,outdoor,night,1,1,wooden board,2988,5312,4.934534072875977
+996.jpg,clothespin,outdoor,night,1,1,wooden board,2988,5312,5.086312294006348
+997.jpg,clothespin,outdoor,night,1,2,black polyester fabric,2988,5312,2.715764045715332
+998.jpg,clothespin,outdoor,night,1,2,black polyester fabric,2988,5312,2.593398094177246
+999.jpg,clothespin,outdoor,night,1,2,black polyester fabric,2988,5312,2.7101917266845703
+1000.jpg,clothespin,outdoor,night,2,0,sheet of paper,5312,2988,4.2684431076049805
+1001.jpg,clothespin,outdoor,night,2,0,sheet of paper,5312,2988,4.257488250732422
+1002.jpg,clothespin,outdoor,night,2,0,sheet of paper,5312,2988,4.244501113891602
+1003.jpg,clothespin,outdoor,night,2,1,wooden board,2988,5312,4.754730224609375
+1004.jpg,clothespin,outdoor,night,2,1,wooden board,2988,5312,4.933353424072266
+1005.jpg,clothespin,outdoor,night,2,1,wooden board,2988,5312,4.823592185974121
+1006.jpg,clothespin,outdoor,night,2,2,black polyester fabric,5312,2988,2.5692129135131836
+1007.jpg,clothespin,outdoor,night,2,2,black polyester fabric,5312,2988,2.614823341369629
+1008.jpg,clothespin,outdoor,night,2,2,black polyester fabric,5312,2988,2.6279287338256836
+1009.jpg,glasses case,indoor,day,0,1,wooden board,5312,2988,4.4177141189575195
+1010.jpg,glasses case,indoor,day,0,1,wooden board,5312,2988,4.565336227416992
+1011.jpg,glasses case,indoor,day,0,1,wooden board,5312,2988,4.348306655883789
+1012.jpg,glasses case,indoor,day,0,2,pink styrofoam,2988,5312,4.427294731140137
+1013.jpg,glasses case,indoor,day,0,2,pink styrofoam,2988,5312,4.520717620849609
+1014.jpg,glasses case,indoor,day,0,2,pink styrofoam,2988,5312,4.406341552734375
+1015.jpg,glasses case,indoor,day,0,0,blue sheet of paper,5312,2988,4.004299163818359
+1016.jpg,glasses case,indoor,day,0,0,blue sheet of paper,5312,2988,3.8295040130615234
+1017.jpg,glasses case,indoor,day,0,0,blue sheet of paper,5312,2988,4.0578107833862305
+1018.jpg,glasses case,indoor,day,1,0,blue sheet of paper,5312,2988,3.9316024780273438
+1019.jpg,glasses case,indoor,day,1,0,blue sheet of paper,5312,2988,4.002918243408203
+1020.jpg,glasses case,indoor,day,1,0,blue sheet of paper,5312,2988,3.786013603210449
+1021.jpg,glasses case,indoor,day,1,1,wooden board,5312,2988,4.381568908691406
+1022.jpg,glasses case,indoor,day,1,1,wooden board,5312,2988,4.236703872680664
+1023.jpg,glasses case,indoor,day,1,1,wooden board,5312,2988,4.226744651794434
+1024.jpg,glasses case,indoor,day,1,2,pink styrofoam,2988,5312,4.8308000564575195
+1025.jpg,glasses case,indoor,day,1,2,pink styrofoam,2988,5312,4.36923885345459
+1026.jpg,glasses case,indoor,day,1,2,pink styrofoam,2988,5312,4.525982856750488
+1027.jpg,glasses case,indoor,day,2,2,pink styrofoam,2988,5312,4.8658294677734375
+1028.jpg,glasses case,indoor,day,2,2,pink styrofoam,2988,5312,4.596189498901367
+1029.jpg,glasses case,indoor,day,2,2,pink styrofoam,5312,2988,4.47421932220459
+1030.jpg,glasses case,indoor,day,2,1,wooden board,5312,2988,4.459102630615234
+1031.jpg,glasses case,indoor,day,2,1,wooden board,5312,2988,4.838603973388672
+1032.jpg,glasses case,indoor,day,2,1,wooden board,5312,2988,4.509369850158691
+1033.jpg,glasses case,indoor,day,2,0,blue sheet of paper,5312,2988,3.8313703536987305
+1034.jpg,glasses case,indoor,day,2,0,blue sheet of paper,5312,2988,3.7865400314331055
+1035.jpg,glasses case,indoor,day,2,0,blue sheet of paper,5312,2988,3.7847976684570312
+1036.jpg,glasses case,indoor,night,2,0,blue sheet of paper,2988,5312,3.700497627258301
+1037.jpg,glasses case,indoor,night,2,0,blue sheet of paper,2988,5312,3.7071266174316406
+1038.jpg,glasses case,indoor,night,2,0,blue sheet of paper,2988,5312,3.7111358642578125
+1039.jpg,glasses case,indoor,night,2,2,pink styrofoam,2988,5312,3.7229299545288086
+1040.jpg,glasses case,indoor,night,2,2,pink styrofoam,2988,5312,3.74674129486084
+1041.jpg,glasses case,indoor,night,2,2,pink styrofoam,2988,5312,4.61439323425293
+1042.jpg,glasses case,indoor,night,2,1,wooden board,2988,5312,4.093388557434082
+1043.jpg,glasses case,indoor,night,2,1,wooden board,2988,5312,4.355865478515625
+1044.jpg,glasses case,indoor,night,2,1,wooden board,2988,5312,4.445478439331055
+1045.jpg,glasses case,indoor,night,1,1,wooden board,5312,2988,3.9936208724975586
+1046.jpg,glasses case,indoor,night,1,1,wooden board,5312,2988,4.265174865722656
+1047.jpg,glasses case,indoor,night,1,1,wooden board,2988,5312,4.017693519592285
+1048.jpg,glasses case,indoor,night,1,2,pink styrofoam,2988,5312,4.268360137939453
+1049.jpg,glasses case,indoor,night,1,2,pink styrofoam,2988,5312,4.389300346374512
+1050.jpg,glasses case,indoor,night,1,2,pink styrofoam,2988,5312,4.496212005615234
+1051.jpg,glasses case,indoor,night,1,0,blue sheet of paper,2988,5312,3.6957693099975586
+1052.jpg,glasses case,indoor,night,1,0,blue sheet of paper,2988,5312,3.7184410095214844
+1053.jpg,glasses case,indoor,night,1,0,blue sheet of paper,2988,5312,3.816309928894043
+1054.jpg,glasses case,indoor,night,0,1,wooden board,2988,5312,4.317967414855957
+1055.jpg,glasses case,indoor,night,0,1,wooden board,2988,5312,4.481616973876953
+1056.jpg,glasses case,indoor,night,0,1,wooden board,2988,5312,4.57120418548584
+1057.jpg,glasses case,indoor,night,0,0,blue sheet of paper,5312,2988,3.719991683959961
+1058.jpg,glasses case,indoor,night,0,0,blue sheet of paper,5312,2988,3.7393407821655273
+1059.jpg,glasses case,indoor,night,0,0,blue sheet of paper,5312,2988,3.746903419494629
+1060.jpg,glasses case,indoor,night,0,2,pink styrofoam,2988,5312,4.389966011047363
+1061.jpg,glasses case,indoor,night,0,2,pink styrofoam,2988,5312,4.7108612060546875
+1062.jpg,glasses case,indoor,night,0,2,pink styrofoam,2988,5312,4.710933685302734
+1063.jpg,glasses case,outdoor,day,2,2,pink styrofoam,2988,5312,3.7923364639282227
+1064.jpg,glasses case,outdoor,day,2,2,pink styrofoam,2988,5312,4.221432685852051
+1065.jpg,glasses case,outdoor,day,2,2,pink styrofoam,2988,5312,4.052218437194824
+1066.jpg,glasses case,outdoor,day,2,0,blue sheet of paper,2988,5312,3.210892677307129
+1067.jpg,glasses case,outdoor,day,2,0,blue sheet of paper,2988,5312,3.1902923583984375
+1068.jpg,glasses case,outdoor,day,2,0,blue sheet of paper,2988,5312,3.068483352661133
+1069.jpg,glasses case,outdoor,day,2,1,wooden board,2988,5312,3.441927909851074
+1070.jpg,glasses case,outdoor,day,2,1,wooden board,2988,5312,3.6067333221435547
+1071.jpg,glasses case,outdoor,day,2,1,wooden board,2988,5312,3.3932056427001953
+1072.jpg,glasses case,outdoor,day,0,0,blue sheet of paper,2988,5312,3.393784523010254
+1073.jpg,glasses case,outdoor,day,0,0,blue sheet of paper,2988,5312,3.400951385498047
+1074.jpg,glasses case,outdoor,day,0,0,blue sheet of paper,2988,5312,3.3416690826416016
+1075.jpg,glasses case,outdoor,day,0,2,pink styrofoam,2988,5312,3.7949981689453125
+1076.jpg,glasses case,outdoor,day,0,2,pink styrofoam,2988,5312,3.969085693359375
+1077.jpg,glasses case,outdoor,day,0,2,pink styrofoam,2988,5312,3.9515228271484375
+1078.jpg,glasses case,outdoor,day,0,1,wooden board,2988,5312,3.568937301635742
+1079.jpg,glasses case,outdoor,day,0,1,wooden board,2988,5312,3.912957191467285
+1080.jpg,glasses case,outdoor,day,0,1,wooden board,2988,5312,3.8182735443115234
+1081.jpg,glasses case,outdoor,day,1,1,wooden board,2988,5312,3.606729507446289
+1082.jpg,glasses case,outdoor,day,1,1,wooden board,2988,5312,3.367582321166992
+1083.jpg,glasses case,outdoor,day,1,1,wooden board,2988,5312,3.532857894897461
+1084.jpg,glasses case,outdoor,day,1,0,blue sheet of paper,2988,5312,3.285088539123535
+1085.jpg,glasses case,outdoor,day,1,0,blue sheet of paper,2988,5312,3.2934207916259766
+1086.jpg,glasses case,outdoor,day,1,0,blue sheet of paper,2988,5312,3.355330467224121
+1087.jpg,glasses case,outdoor,day,1,2,pink styrofoam,2988,5312,3.5836219787597656
+1088.jpg,glasses case,outdoor,day,1,2,pink styrofoam,2988,5312,3.908510208129883
+1089.jpg,glasses case,outdoor,day,1,2,pink styrofoam,2988,5312,3.9541492462158203
+1090.jpg,glasses case,outdoor,night,0,2,pink styrofoam,2988,5312,4.983880043029785
+1091.jpg,glasses case,outdoor,night,0,2,pink styrofoam,2988,5312,4.947599411010742
+1092.jpg,glasses case,outdoor,night,0,2,pink styrofoam,2988,5312,4.932321548461914
+1093.jpg,glasses case,outdoor,night,0,0,blue sheet of paper,2988,5312,4.409527778625488
+1094.jpg,glasses case,outdoor,night,0,0,blue sheet of paper,2988,5312,4.5741472244262695
+1095.jpg,glasses case,outdoor,night,0,0,blue sheet of paper,2988,5312,4.452760696411133
+1096.jpg,glasses case,outdoor,night,0,1,wooden board,2988,5312,4.7648210525512695
+1097.jpg,glasses case,outdoor,night,0,1,wooden board,2988,5312,4.766092300415039
+1098.jpg,glasses case,outdoor,night,0,1,wooden board,2988,5312,4.823037147521973
+1099.jpg,glasses case,outdoor,night,2,2,pink styrofoam,2988,5312,4.883217811584473
+1100.jpg,glasses case,outdoor,night,2,2,pink styrofoam,2988,5312,4.916502952575684
+1101.jpg,glasses case,outdoor,night,2,2,pink styrofoam,2988,5312,4.861143112182617
+1102.jpg,glasses case,outdoor,night,2,1,wooden board,2988,5312,4.607330322265625
+1103.jpg,glasses case,outdoor,night,2,1,wooden board,2988,5312,4.621825218200684
+1104.jpg,glasses case,outdoor,night,2,1,wooden board,2988,5312,4.6142473220825195
+1105.jpg,glasses case,outdoor,night,2,0,blue sheet of paper,2988,5312,4.5437517166137695
+1106.jpg,glasses case,outdoor,night,2,0,blue sheet of paper,2988,5312,4.336786270141602
+1107.jpg,glasses case,outdoor,night,2,0,blue sheet of paper,2988,5312,4.385293960571289
+1108.jpg,glasses case,outdoor,night,1,1,wooden board,2988,5312,4.869930267333984
+1109.jpg,glasses case,outdoor,night,1,1,wooden board,2988,5312,4.828857421875
+1110.jpg,glasses case,outdoor,night,1,1,wooden board,2988,5312,4.827279090881348
+1111.jpg,glasses case,outdoor,night,1,0,blue sheet of paper,2988,5312,4.355206489562988
+1112.jpg,glasses case,outdoor,night,1,0,blue sheet of paper,2988,5312,4.348388671875
+1113.jpg,glasses case,outdoor,night,1,0,blue sheet of paper,2988,5312,4.3646039962768555
+1114.jpg,glasses case,outdoor,night,1,2,pink styrofoam,2988,5312,4.772565841674805
+1115.jpg,glasses case,outdoor,night,1,2,pink styrofoam,2988,5312,4.790136337280273
+1116.jpg,glasses case,outdoor,night,1,2,pink styrofoam,2988,5312,4.920492172241211
