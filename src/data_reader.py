@@ -90,7 +90,7 @@ class ObjectDataset:
         dataset_sample, names = self.get_random_sample(samples_by_class)
         rows = len(names)//samples_by_class
         cols = samples_by_class
-        if rows>8 or cols>10:
+        if rows>10 or cols>15:
             total_len = rows*cols
             rows = round(math.sqrt(total_len))
             cols = round(total_len/rows)
@@ -112,20 +112,18 @@ class ObjectDataset:
         dataset_sample, names = self.get_random_sample(samples_by_class)
         rows = len(names)//samples_by_class
         cols = samples_by_class
-        if rows>8 or cols>10:
+        if rows>10 or cols>15:
             total_len = rows*cols
             rows = round(math.sqrt(total_len))
-            cols = round(total_len/rows)
-        
-        plt.figure()
-        fig,ax = plt.subplots(rows,cols)
+            cols = round(total_len/rows) if round(total_len/rows)*rows>=total_len else math.ceil(total_len/rows)
+
+        fig,ax = plt.subplots(rows,cols, figsize=(18, 16))
         for el in range(len(names)):
             img, cl = dataset_sample[el]
             ax[el//cols,el%cols].imshow(img)
             ax[el//cols,el%cols].axis('off')
-            ax[el//cols,el%cols].set_title(cl, fontsize=30)
-
-        fig.set_size_inches(np.array(fig.get_size_inches()) * len(names))
+            ax[el//cols,el%cols].set_title(cl)
+        fig.tight_layout()
         plt.axis('off')
         plt.show()
 
