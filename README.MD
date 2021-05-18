@@ -31,6 +31,7 @@ Image resolution and ammount of each resolution:
 
 |object_name|number_of_objects|background|lighting|number_of_repetions|number_of_samples|
 |-----------|-----------------|----------|--------|-------------------|-----------------|
+<<<<<<< HEAD
 |pen|4|beige pottery;white table;shades blue fabric;beige grained pottery;green fabric;white fabric|4 lighting variations: indoor-day, indoor-night, outdoor-day, outdoor-night|3|144|
 |medicine|3|beige pottery;white table;shades blue fabric;beige grained pottery;green fabric;white fabric|4 lighting variations: indoor-day, indoor-night, outdoor-day, outdoor-night|3|108|
 |toothbrush|3|beige pottery;white table;shades blue fabric;beige grained pottery;green fabric;white fabric|4 lighting variations: indoor-day, indoor-night, outdoor-day, outdoor-night|3|108|
