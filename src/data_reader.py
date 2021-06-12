@@ -79,6 +79,9 @@ class ObjectDataset:
         plt.show()
 
     def get_dataset(self) -> list:
+        """
+        Return all the dataset (image, class)
+        """
         dataset = []
         for name, path in self.paths.items():
             img, obj_class = self.get_item(name)

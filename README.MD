@@ -4,7 +4,6 @@ All the code produced will be focused in this repo. The projects (EP 1,2 and 3) 
 
 >The full database with the images can be found [here](https://drive.google.com/drive/folders/1GJD9P-zUVVOHRNSenVLbm_XS1joCXYm-?usp=sharing)
 
-NOTE: Dataset not complet yet
 
 ## GLOBAL SUMMARY
 
