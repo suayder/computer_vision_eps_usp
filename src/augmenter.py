@@ -78,10 +78,31 @@ class Augmenter(ObjectDataset):
         figure.tight_layout()
         plt.show()
 
+    #TODO: este método deve mostrar 
+    def show_random_sample(self, samples_by_class: int):
+        dataset_sample, names = self.get_random_sample(samples_by_class)
+
+        rows = len(names)//samples_by_class
+        cols = samples_by_class
+        if rows>10 or cols>15:
+            total_len = rows*cols
+            rows = round(math.sqrt(total_len))
+            cols = round(total_len/rows) if round(total_len/rows)*rows>=total_len else math.ceil(total_len/rows)
+
+        fig,ax = plt.subplots(rows,cols, figsize=(18, 16))
+        for el in range(len(names)):
+            img, cl = dataset_sample[el]
+            ax[el//cols,el%cols].imshow(img)
+            ax[el//cols,el%cols].axis('off')
+            ax[el//cols,el%cols].set_title(cl)
+        fig.tight_layout()
+        plt.axis('off')
+        plt.show()
+
     
     def process_dataset_and_save(self, save_path:str = None):
         """
-        save_path: path with the base_dir to save,if none a folder with
+        save_path: path with the base_dir to save the augmented images,if none a folder with
                    name augmented will be created in the base_path
         """
 
