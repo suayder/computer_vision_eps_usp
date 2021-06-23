@@ -31,6 +31,8 @@ class GradientSum(object):
     """
     pass
 
+#https://scikit-image.org/docs/dev/api/skimage.exposure.html#skimage.exposure.adjust_log
+
 class LogTransform(object):
     """
     descrição (que está no edisciplinas): Logaritmo da imagem
@@ -44,6 +46,10 @@ class LogTransform(object):
     def __call__(self, image:np.ndarray) -> np.ndarray:
         log_image = exposure.adjust_log (image, c)
         return log_image
+
+    @property
+    def name(self):
+        return 'log'
 
 class ExpTransform(object):
     """
@@ -59,6 +65,10 @@ class ExpTransform(object):
     def __call__(self, image:np.ndarray) -> np.ndarray:
         exp_image = exposure.adjust_gamma (image, gamma, c)
         return exp_image
+
+    @property
+    def name(self):
+        return 'exp'
 
 class MedianFilter(object):
     """
