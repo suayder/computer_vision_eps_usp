@@ -37,12 +37,11 @@ class LogTransform(object):
     """
     descrição (que está no edisciplinas): Logaritmo da imagem
     """
-    def __init__(self, c) -> None:
+    def __init__(self, c, name = 'logarithm') -> None:
         """
         :param c: constant used in the log transformation
         """
         self.c = c
-        self.name = 'logarithm'
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
         log_image = exposure.adjust_log (image, c)
