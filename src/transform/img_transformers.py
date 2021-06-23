@@ -49,7 +49,7 @@ class LogTransform(object):
 
     @property
     def name(self):
-        return 'log'
+        return 'logarithm'
 
 class ExpTransform(object):
     """
@@ -68,7 +68,7 @@ class ExpTransform(object):
 
     @property
     def name(self):
-        return 'exp'
+        return 'exponential'
 
 class MedianFilter(object):
     """
