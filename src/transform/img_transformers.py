@@ -42,6 +42,7 @@ class LogTransform(object):
         :param c: constant used in the log transformation
         """
         self.c = c
+        self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
         log_image = exposure.adjust_log (image, c)
