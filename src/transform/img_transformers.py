@@ -45,23 +45,23 @@ class LogTransform(object):
         self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
-        log_image = exposure.adjust_log (image, c)
+        log_image = exposure.adjust_log (image, self.c)
         return log_image
 
 class ExpTransform(object):
     """
     Image exponential
     """
-    def __init__(self, c, gamma) -> None:
+    def __init__(self, c, gamma, name = 'exponential') -> None:
         """
         :param c: constant used in the log transformation
         """
         self.c = c
         self.gamma = gamma
-        self.name = 'exponential'
+        self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
-        exp_image = exposure.adjust_gamma (image, gamma, c)
+        exp_image = exposure.adjust_gamma (image, self.gamma, self.c)
         return exp_image
 
 class MedianFilter(object):
