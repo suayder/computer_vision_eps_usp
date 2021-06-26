@@ -77,6 +77,13 @@ class ObjectDataset:
 
         return img_arr, img_class
 
+    def get_classes(self) -> list:
+        'return all class of the dataset'
+        return self.df_csv['class'].unique()
+
+    def get_items_name_by_class(self, class_name):
+        return list(self.df_csv.loc[self.df_csv['class']==class_name].index)
+
     def show_item(self, img_name:str) -> None:
         img_arr, _ = self.get_item(img_name)
         decription = self.get_item_description(img_name)

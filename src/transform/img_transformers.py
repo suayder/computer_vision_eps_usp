@@ -7,6 +7,7 @@ name(self) -> this is a property, the name of the transformation
 import numpy as np
 from skimage.color import rgb2gray
 from skimage import exposure
+from skimage.transform import resize
 
 class Rgb2Gray(object):
     def __call__(self, image:np.ndarray) -> np.ndarray:
@@ -88,3 +89,21 @@ class ImageEqualization(object):
     @property
     def name(self):
         return 'equalized'
+
+class Resize:
+
+    def __init__(self, shape:tuple) -> None:
+        """
+        args:
+            shape: shape of the output image, must be a tuple (n_rows, n_cols)
+        """
+        assert len(shape)==2
+        self.shape = shape
+    
+    def __call__(self, image:np.ndarray) -> np.ndarray:
+        resized = resize(image, self.shape, anti_aliasing=True)
+        return (resized*255).astype(np.uint8)
+
+    @property
+    def name(self):
+        return 'resized'
