@@ -41,6 +41,9 @@ class ObjectDataset:
         return paths
 
     def get_item_description(self, img_name:str, features=None) -> str:
+        """
+        if features='all' is passed the code return a dictionary, else return str
+        """
         
         if features is None:
             img_class = self.df_csv['class'].loc[img_name]
@@ -49,6 +52,9 @@ class ObjectDataset:
             desc = f'name: {img_name}, class:{img_class}\n\
                     lighting condiction: {lighting}, background: {bg}'
         
+        elif features == 'all':
+            return self.df_csv.loc[img_name].to_dict()
+
         else:
             desc = ''
             for i in features:

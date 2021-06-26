@@ -1,6 +1,8 @@
+from genericpath import exists
 import os
 import math
 import numpy as np
+import pandas as pd
 from skimage import io
 from matplotlib import pyplot as plt
 from src.data_reader import ObjectDataset
@@ -99,7 +101,9 @@ class Augmenter(ObjectDataset):
         plt.axis('off')
         plt.show()
 
-    
+    def get_item_description(self, img_name: str, features):
+        return super().get_item_description(img_name, features=features)
+
     def process_dataset_and_save(self, save_path:str = None):
         """
         save_path: path with the base_dir to save the augmented images,if none a folder with
@@ -108,17 +112,25 @@ class Augmenter(ObjectDataset):
 
         if save_path is None:
             save_path = os.path.join(self.base_path, 'augmented')
-            os.makedirs(save_path)
+        os.makedirs(save_path, exist_ok=True)
+        save_data = os.path.join(save_path, 'data')
+        os.makedirs(save_data, exist_ok=True)
+
+        df_desc = pd.DataFrame(columns=self.df_csv.columns) #df_csv comes from the ObjectDataset class
+        df_desc.index.name = self.df_csv.index.name
 
         for name, path in self.paths.items():
             image, obj_class = self.get_item(name)
             transformed = self.tranformations.apply(image, name)
+            description = self.get_item_description(name, features='all')
 
             #save
-            class_path = os.path.join(save_path, obj_class)
+            class_path = os.path.join(save_data, obj_class)
             if not os.path.exists(class_path):
                 os.makedirs(class_path)
 
             for name, image in transformed.items():
                 image_path = os.path.join(class_path, name)
+                df_desc.loc[name] = description
                 io.imsave(image_path, image)
+        df_desc.to_csv(os.path.join(save_path, 'augmented_metadata.csv'), sep=',')
