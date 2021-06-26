@@ -31,10 +31,16 @@ class Transform:
         """
         transformed = {}
         for transform in self.transformations:
-            comp_name = transform.name+"_"+img_name
+            comp_name = transform.name+"_"+img_name if transform.name!='' else img_name
             transformed[comp_name] = transform.__call__(img)
 
         return transformed
+    
+    def apply_sequential(self, img:np.ndarray, img_name:str) -> tuple:
+        for transform in self.transformations:
+            img_name = transform.name+"_"+img_name if transform.name!='' else img_name
+            img = transform.__call__(img)
+        return img, img_name
 
 class Augmenter(ObjectDataset):
     def __init__(self, base_path:str, csv_path:str, transformations:Transform) -> None:
