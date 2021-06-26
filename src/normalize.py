@@ -2,7 +2,8 @@
 daqui ele chama a função de transformation implementada (que é a equalização da imagem)
 e então aplica, salva e faz as operações de extrair protótipo, histograma médio variância do histograma
 """
-
+import os
+from skimage import io
 from src.augmenter import Transform, Augmenter
 from src.utils import build_histogram
 
@@ -13,7 +14,7 @@ class Normalize(Augmenter):
     def __init__(self, base_path:str, csv_path:str, transformations:Transform) -> None:
         """
         args:
-            base_path: Path where the images are
+            base_path: Path where the images are. THE IMAGES MUST BE IN GRAYSCALE.
             csv_path: path to the csv of descriptions
             transformations: class Transform where apply the transformations in the image
         """
@@ -28,11 +29,26 @@ class Normalize(Augmenter):
     def show_image(self, img_name:str) -> None:
         super().show_augmented_item(img_name)
 
-    def process_dataset_and_save(self):
+    def process_dataset_and_save(self, save_path:str = None):
         """
         this function process all the dataset and save it.
         """
-        pass
+        if save_path is None:
+            save_path = os.path.join(self.base_path, 'normalized')
+        os.makedirs(save_path, exist_ok=True)
+    
+        for name, path in self.paths.items():
+            image, obj_class = self.get_item(name)
+            transformed = self.tranformations.apply(image, name)
+
+            #save
+            class_path = os.path.join(save_path, obj_class)
+            if not os.path.exists(class_path):
+                os.makedirs(class_path)
+
+            for name, image in transformed.items():
+                image_path = os.path.join(class_path, name)
+                io.imsave(image_path, image)
 
     def process_by_class(self, *args):
         """

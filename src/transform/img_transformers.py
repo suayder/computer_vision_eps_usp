@@ -45,6 +45,9 @@ class LogTransform(object):
         self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
+        if len(image.shape) != 2:
+            image = Rgb2Gray().__call__(image)
+
         log_image = exposure.adjust_log (image, self.c)
         return log_image
 
@@ -61,6 +64,9 @@ class ExpTransform(object):
         self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
+        if len(image.shape) != 2:
+            image = Rgb2Gray().__call__(image)
+
         exp_image = exposure.adjust_gamma (image, self.gamma, self.c)
         return exp_image
 
@@ -77,7 +83,7 @@ class ImageEqualization(object):
             image = Rgb2Gray().__call__(image)
         
         equalized_image = exposure.equalize_hist(image)
-        return equalized_image#(equalized_image*255).astype(np.uint8)
+        return (equalized_image*255).astype(np.uint8)
 
     @property
     def name(self):
