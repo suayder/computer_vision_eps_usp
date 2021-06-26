@@ -29,8 +29,16 @@ class GradientSum(object):
     """
     descrição do exercício (que está no edisciplinas): Soma de fundo com gradiente de níveis de cinza
     """
-    pass
+    def __init__(self, name = 'GradSum') -> None:
+        """
+        """
+        self.name = name
 
+    def __call__(self, image:np.ndarray) -> np.ndarray:
+        
+        grad_image = image 
+        return grad_image
+ 
 #https://scikit-image.org/docs/dev/api/skimage.exposure.html#skimage.exposure.adjust_log
 
 class LogTransform(object):
