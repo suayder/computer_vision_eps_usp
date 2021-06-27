@@ -69,8 +69,8 @@ class Augmenter(ObjectDataset):
 
         images = self.process_item(img_name)
         total_len = len(images)
-        rows = round(math.sqrt(total_len))
-        cols = round(total_len/rows)
+        rows = 1
+        cols = total_len
         figure = plt.figure()
         axes = []
 
