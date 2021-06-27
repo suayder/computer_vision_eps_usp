@@ -7,6 +7,7 @@ name(self) -> this is a property, the name of the transformation
 import numpy as np
 from skimage.color import rgb2gray
 from skimage import exposure
+from skimage.transform import resize
 
 class Rgb2Gray(object):
     def __call__(self, image:np.ndarray) -> np.ndarray:
@@ -29,6 +30,7 @@ class GradientSum(object):
     """
     descrição do exercício (que está no edisciplinas): Soma de fundo com gradiente de níveis de cinza
     """
+
     def __init__(self, dGrad, name = 'GradSum') -> None:
         """
         :param dGrad: define a direção de aplicação do gradiente de sombras na imagem
@@ -73,6 +75,9 @@ class LogTransform(object):
         self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
+        if len(image.shape) != 2:
+            image = Rgb2Gray().__call__(image)
+
         log_image = exposure.adjust_log (image, self.c)
         return log_image
 
@@ -89,6 +94,9 @@ class ExpTransform(object):
         self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
+        if len(image.shape) != 2:
+            image = Rgb2Gray().__call__(image)
+
         exp_image = exposure.adjust_gamma (image, self.gamma, self.c)
         return exp_image
 
@@ -105,8 +113,26 @@ class ImageEqualization(object):
             image = Rgb2Gray().__call__(image)
         
         equalized_image = exposure.equalize_hist(image)
-        return equalized_image#(equalized_image*255).astype(np.uint8)
+        return (equalized_image*255).astype(np.uint8)
 
     @property
     def name(self):
         return 'equalized'
+
+class Resize:
+
+    def __init__(self, shape:tuple) -> None:
+        """
+        args:
+            shape: shape of the output image, must be a tuple (n_rows, n_cols)
+        """
+        assert len(shape)==2
+        self.shape = shape
+    
+    def __call__(self, image:np.ndarray) -> np.ndarray:
+        resized = resize(image, self.shape, anti_aliasing=True)
+        return (resized*255).astype(np.uint8)
+
+    @property
+    def name(self):
+        return 'resized'

@@ -41,6 +41,9 @@ class ObjectDataset:
         return paths
 
     def get_item_description(self, img_name:str, features=None) -> str:
+        """
+        if features='all' is passed the code return a dictionary, else return str
+        """
         
         if features is None:
             img_class = self.df_csv['class'].loc[img_name]
@@ -49,6 +52,9 @@ class ObjectDataset:
             desc = f'name: {img_name}, class:{img_class}\n\
                     lighting condiction: {lighting}, background: {bg}'
         
+        elif features == 'all':
+            return self.df_csv.loc[img_name].to_dict()
+
         else:
             desc = ''
             for i in features:
@@ -58,11 +64,16 @@ class ObjectDataset:
 
         return desc
 
-    def get_item(self,img_name:str) -> tuple:
+    def get_item(self,img_name:str, cache=True) -> tuple:
         """
         load images on demand
         """
         img_class = self.df_csv['class'].loc[img_name]
+        
+        #To not keep the image in memory
+        if not cache:
+            return self.__read_img(self.paths[img_name]), img_class
+
         if img_name in self.images:
             img_arr = self.images[img_name]
         else:
@@ -70,6 +81,13 @@ class ObjectDataset:
             self.images[img_name] = img_arr
 
         return img_arr, img_class
+
+    def get_classes(self) -> list:
+        'return all class of the dataset'
+        return self.df_csv['class'].unique()
+
+    def get_items_name_by_class(self, class_name):
+        return list(self.df_csv.loc[self.df_csv['class']==class_name].index)
 
     def show_item(self, img_name:str) -> None:
         img_arr, _ = self.get_item(img_name)
