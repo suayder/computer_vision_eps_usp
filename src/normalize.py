@@ -43,7 +43,7 @@ class Normalize(Augmenter):
         os.makedirs(save_path, exist_ok=True)
     
         for name, path in self.paths.items():
-            image, obj_class = self.get_item(name)
+            image, obj_class = self.get_item(name, cache=False)
             transformed_image, name = self.tranformations.apply_sequential(image, name)
             name = '_'.join(name.split('_')[-2:])
 

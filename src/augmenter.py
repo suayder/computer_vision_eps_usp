@@ -58,7 +58,7 @@ class Augmenter(ObjectDataset):
         """
         Pass the name of the image and get a dict with augmented images
         """
-        image, _ = self.get_item(img_name)
+        image, _ = self.get_item(img_name, cache=False)
 
         return self.tranformations.apply(image, img_name)
 
@@ -126,6 +126,7 @@ class Augmenter(ObjectDataset):
         df_desc.index.name = self.df_csv.index.name
 
         for name, path in self.paths.items():
+            transformed = None
             image, obj_class = self.get_item(name, cache=False)
             transformed = self.tranformations.apply(image, name)
             description = self.get_item_description(name, features='all')
