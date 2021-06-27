@@ -3,6 +3,8 @@ daqui ele chama a função de transformation implementada (que é a equalizaçã
 e então aplica, salva e faz as operações de extrair protótipo, histograma médio variância do histograma
 """
 import os
+
+from numpy.core.fromnumeric import shape
 from skimage import io
 import numpy as np
 from matplotlib import pyplot as plt
@@ -156,8 +158,24 @@ class ProcessNormalized(ObjectDataset):
         list_hist = []
         for name in names:
             image, _ = self.get_item(name)
-            hist = self._get_histogram(image)
-            list_hist.append(hist[0])
+            hist, bins = self._get_histogram(image)
+            #Maybe the histogram does not have 255 values, then the matrix must be normed to the same size
+            if len(bins)!=256:
+                new_hist = []
+                i = 0
+                j = 0
+                while i<256:
+                    if bins[j] == i:
+                        new_hist.append(hist[j])
+                        i+=1
+                        j+=1
+                    else:
+                        new_hist.append(0)
+                        i+=1
+
+                new_hist = np.array(new_hist)
+                hist = new_hist                    
+            list_hist.append(hist)
         arr = np.array(list_hist)
         arr = np.stack(arr[..., np.newaxis], axis=-1)
         mean_hist = arr.mean(axis=-1)

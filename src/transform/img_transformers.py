@@ -34,6 +34,9 @@ class GradientSum(object):
         self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
+
+        if len(image.shape) != 2:
+            image = Rgb2Gray().__call__(image)
         
         imgProcess = np.zeros(image.shape, dtype = "uint8")
         
