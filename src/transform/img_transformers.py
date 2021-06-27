@@ -5,9 +5,12 @@ name(self) -> this is a property, the name of the transformation
 """
 
 import numpy as np
+from scipy import ndimage
 from skimage.color import rgb2gray
 from skimage import exposure
 from skimage.transform import resize
+from skimage.morphology import square
+from skimage.filters.rank import mean
 
 class Rgb2Gray(object):
     def __call__(self, image:np.ndarray) -> np.ndarray:
@@ -23,7 +26,7 @@ class GradientSum(object):
     descrição do exercício (que está no edisciplinas): Soma de fundo com gradiente de níveis de cinza
     """
 
-    def __init__(self, dGrad, name = 'GradSum') -> None:
+    def __init__(self, dGrad) -> None:
         """
         :param dGrad: define a direção de aplicação do gradiente de sombras na imagem
             0 - Gradiente na Direção Vertical
@@ -31,10 +34,8 @@ class GradientSum(object):
             2 - Gradiente na Direção Diagonal
         """
         self.dGrad = dGrad
-        self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
-
         if len(image.shape) != 2:
             image = Rgb2Gray().__call__(image)
         
@@ -54,6 +55,10 @@ class GradientSum(object):
                     imgProcess[lin, col] = image[lin,col] * (float(lin/image.shape[0]) + float(col/image.shape[1]))/2
 
         return imgProcess
+    
+    @property
+    def name(self):
+        return 'GradSum'
 
  
 #https://scikit-image.org/docs/dev/api/skimage.exposure.html#skimage.exposure.adjust_log
@@ -62,12 +67,11 @@ class LogTransform(object):
     """
     descrição (que está no edisciplinas): Logaritmo da imagem
     """
-    def __init__(self, c, name = 'logarithm') -> None:
+    def __init__(self, c) -> None:
         """
         :param c: constant used in the log transformation
         """
         self.c = c
-        self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
         if len(image.shape) != 2:
@@ -75,18 +79,21 @@ class LogTransform(object):
 
         log_image = exposure.adjust_log(image, self.c)
         return log_image
+    
+    @property
+    def name(self):
+        return 'logarithm'
 
 class ExpTransform(object):
     """
     Image exponential
     """
-    def __init__(self, c, gamma, name = 'exponential') -> None:
+    def __init__(self, c, gamma) -> None:
         """
         :param c: constant used in the log transformation
         """
         self.c = c
         self.gamma = gamma
-        self.name = name
 
     def __call__(self, image:np.ndarray) -> np.ndarray:
         if len(image.shape) != 2:
@@ -94,12 +101,58 @@ class ExpTransform(object):
 
         exp_image = exposure.adjust_gamma (image, self.gamma, self.c)
         return exp_image
+    
+    @property
+    def name(self):
+        return 'exponential'
 
-class MedianFilter(object):
+class MeanFilter(object):
     """
-    filtro da média, não esquecer que se deve implementar a convolução
+    Filtro da média implementado usando convolução (funcao pronta)
     """
-    pass
+    def __init__(self, size) -> None:
+        """
+        :param size: (size x size) kernel 
+        """
+        self.size = size
+
+    def __call__(self, image:np.ndarray) -> np.ndarray:
+        if len(image.shape) != 2:
+            image = Rgb2Gray().__call__(image)
+
+        k = square (self.size); #square of 1's size x size
+
+        k = k / (self.size * self.size) #averaging kernel
+
+        mean_image = ndimage.convolve(image, k, mode='constant', cval=0.0)
+
+        return mean_image
+    
+    @property
+    def name(self):
+        return 'meanFilter'
+
+class MeanFilter2(object):
+    """
+    Filtro da média implementado usando a função pronta mean 
+    """
+    def __init__(self, size) -> None:
+        """
+        :param size: size of the kernel
+        """
+        self.size = size
+
+    def __call__(self, image:np.ndarray) -> np.ndarray:
+        if len(image.shape) != 2:
+            image = Rgb2Gray().__call__(image)
+
+        mean_image = mean (image, square (self.size))
+
+        return mean_image
+    
+    @property
+    def name(self):
+        return 'meanFilter2'
 
 class ImageEqualization(object):
 
