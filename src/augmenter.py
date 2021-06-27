@@ -69,8 +69,8 @@ class Augmenter(ObjectDataset):
 
         images = self.process_item(img_name)
         total_len = len(images)
-        rows = round(math.sqrt(total_len))
-        cols = round(total_len/rows)
+        rows = 1
+        cols = total_len
         figure = plt.figure()
         axes = []
 
@@ -141,3 +141,37 @@ class Augmenter(ObjectDataset):
                 io.imsave(image_path, image)
 
         df_desc.to_csv(os.path.join(save_path, 'augmented_metadata.csv'), sep=',')
+
+    def process_by_class(self, class_name, save_path=None):
+        """
+        do the same as process_dataset_and_save but by class
+        return:
+             dataframe with augmented description
+        """
+
+        if save_path is None:
+            save_path = os.path.join(self.base_path, 'augmented')
+        os.makedirs(save_path, exist_ok=True)
+        save_data = os.path.join(save_path, 'data')
+        os.makedirs(save_data, exist_ok=True)
+
+        df_desc = pd.DataFrame(columns=self.df_csv.columns) #df_csv comes from the ObjectDataset class
+        df_desc.index.name = self.df_csv.index.name
+
+
+        for img_name in self.get_items_name_by_class(class_name):
+            image, obj_class = self.get_item(img_name, cache=False)
+            transformed = self.tranformations.apply(image, img_name)
+            description = self.get_item_description(img_name, features='all')
+
+            #save
+            class_path = os.path.join(save_data, obj_class)
+            if not os.path.exists(class_path):
+                os.makedirs(class_path)
+
+            for name, image in transformed.items():
+                image_path = os.path.join(class_path, name)
+                df_desc.loc[name] = description
+                io.imsave(image_path, image)
+
+        return df_desc
