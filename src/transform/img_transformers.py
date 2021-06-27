@@ -5,9 +5,12 @@ name(self) -> this is a property, the name of the transformation
 """
 
 import numpy as np
+from scipy import ndimage
 from skimage.color import rgb2gray
 from skimage import exposure
 from skimage.transform import resize
+from skimage.morphology import square
+from skimage.filters.rank import mean
 
 class Rgb2Gray(object):
     def __call__(self, image:np.ndarray) -> np.ndarray:
@@ -100,11 +103,47 @@ class ExpTransform(object):
         exp_image = exposure.adjust_gamma (image, self.gamma, self.c)
         return exp_image
 
-class MedianFilter(object):
+class MeanFilter(object):
     """
-    filtro da média, não esquecer que se deve implementar a convolução
+    Filtro da média implementado usando convolução
     """
-    pass
+    def __init__(self, size, name = 'meanFilter') -> None:
+        """
+        :param size: size of the kernel
+        """
+        self.size = size
+        self.name = name
+
+    def __call__(self, image:np.ndarray) -> np.ndarray:
+        if len(image.shape) != 2:
+            image = Rgb2Gray().__call__(image)
+
+        k = square (c); #square of 1's size x size
+
+        k = k * (1 / c) #averaging kernel
+
+        mean_image = ndimage.convolve(image, k, mode='constant', cval=0.0)
+
+        return mean_image
+
+class MeanFilter2(object):
+    """
+    Filtro da média implementado usando convolução
+    """
+    def __init__(self, size, name = 'meanFilter2') -> None:
+        """
+        :param size: size of the kernel
+        """
+        self.size = size
+        self.name = name
+
+    def __call__(self, image:np.ndarray) -> np.ndarray:
+        if len(image.shape) != 2:
+            image = Rgb2Gray().__call__(image)
+
+        mean_image = mean (image, square (c))
+
+        return mean_image
 
 class ImageEqualization(object):
 
