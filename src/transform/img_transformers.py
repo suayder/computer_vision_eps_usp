@@ -120,7 +120,7 @@ class MeanFilter(object):
 
         k = square (self.size); #square of 1's size x size
 
-        k = k * (1 / self.size) #averaging kernel
+        k = k / (self.size * self.size) #averaging kernel
 
         mean_image = ndimage.convolve(image, k, mode='constant', cval=0.0)
 
