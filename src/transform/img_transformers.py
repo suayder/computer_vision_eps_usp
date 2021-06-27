@@ -109,7 +109,7 @@ class MeanFilter(object):
     """
     def __init__(self, size, name = 'meanFilter') -> None:
         """
-        :param size: size of the kernel
+        :param size: (size x size) kernel 
         """
         self.size = size
         self.name = name
@@ -118,9 +118,9 @@ class MeanFilter(object):
         if len(image.shape) != 2:
             image = Rgb2Gray().__call__(image)
 
-        k = square (c); #square of 1's size x size
+        k = square (self.size); #square of 1's size x size
 
-        k = k * (1 / c) #averaging kernel
+        k = k * (1 / self.size) #averaging kernel
 
         mean_image = ndimage.convolve(image, k, mode='constant', cval=0.0)
 
@@ -141,7 +141,7 @@ class MeanFilter2(object):
         if len(image.shape) != 2:
             image = Rgb2Gray().__call__(image)
 
-        mean_image = mean (image, square (c))
+        mean_image = mean (image, square (self.size))
 
         return mean_image
 
