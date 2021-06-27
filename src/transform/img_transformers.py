@@ -30,7 +30,8 @@ class GradientSum(object):
     """
     descrição do exercício (que está no edisciplinas): Soma de fundo com gradiente de níveis de cinza
     """
-   def __init__(self, dGrad, name = 'GradSum') -> None:
+
+    def __init__(self, dGrad, name = 'GradSum') -> None:
         """
         :param dGrad: define a direção de aplicação do gradiente de sombras na imagem
             0 - Gradiente na Direção Vertical
@@ -59,6 +60,7 @@ class GradientSum(object):
 
         return imgProcess
 
+ 
 #https://scikit-image.org/docs/dev/api/skimage.exposure.html#skimage.exposure.adjust_log
 
 class LogTransform(object):
