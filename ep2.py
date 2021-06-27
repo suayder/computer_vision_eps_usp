@@ -7,7 +7,7 @@ from src.transform.img_transformers import Rgb2Gray, LogTransform, ImageEqualiza
 from src.normalize import Normalize, ProcessNormalized
 
 base_path = '/home/suayder/Desktop/visao/data_prep/dataset/data'
-augmented_path = '/home/suayder/Desktop/visao/data_prep/dataset/augmented_data'
+augmented_path = '/home/suayder/Desktop/visao/data_prep/dataset/augmented_data1'
 normalized_path = '/home/suayder/Desktop/visao/data_prep/dataset/normalized'
 
 trasnformations = Transform.compose([Rgb2Gray(), LogTransform(c=0.3)])
@@ -16,11 +16,11 @@ data_augmenter = Augmenter(base_path,
                            trasnformations)
 
 #augmented = data_augmenter.process_item('7.jpg')
-#data_augmenter.process_dataset_and_save(save_path = augmented_path)
+data_augmenter.process_dataset_and_save(save_path = augmented_path)
 #image, _ = data.get_item('7.jpg')
 #data.show_item('7.jpg')
 
-
+exit(0)
 ## HISTOGRAM EQUALIZATION
 histogram_transform = Transform.compose([ImageEqualization(),
                                          Resize(shape=(2048,1536))])

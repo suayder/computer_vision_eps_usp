@@ -126,7 +126,7 @@ class Augmenter(ObjectDataset):
         df_desc.index.name = self.df_csv.index.name
 
         for name, path in self.paths.items():
-            image, obj_class = self.get_item(name)
+            image, obj_class = self.get_item(name, cache=False)
             transformed = self.tranformations.apply(image, name)
             description = self.get_item_description(name, features='all')
 
@@ -139,4 +139,5 @@ class Augmenter(ObjectDataset):
                 image_path = os.path.join(class_path, name)
                 df_desc.loc[name] = description
                 io.imsave(image_path, image)
+
         df_desc.to_csv(os.path.join(save_path, 'augmented_metadata.csv'), sep=',')
