@@ -102,7 +102,7 @@ class ObjectDataset:
         """
         dataset = []
         for name, path in self.paths.items():
-            img, obj_class = self.get_item(name)
+            img, obj_class = self.get_item(name, cache=False)
             if img is not None:
                 dataset.append((img, obj_class))
         return dataset

@@ -18,14 +18,6 @@ class Rgb2Gray(object):
     def name(self):
         return 'gray'
 
-class Original(object):
-    def __call__(self, image:np.ndarray) -> np.ndarray:
-        return image
-    
-    @property
-    def name(self):
-        return 'original'
-
 class GradientSum(object):
     """
     descrição do exercício (que está no edisciplinas): Soma de fundo com gradiente de níveis de cinza
@@ -78,7 +70,7 @@ class LogTransform(object):
         if len(image.shape) != 2:
             image = Rgb2Gray().__call__(image)
 
-        log_image = exposure.adjust_log (image, self.c)
+        log_image = exposure.adjust_log(image, self.c)
         return log_image
 
 class ExpTransform(object):
