@@ -105,7 +105,7 @@ class ExpTransform(object):
 
 class MeanFilter(object):
     """
-    Filtro da média implementado usando convolução
+    Filtro da média implementado usando convolução (funcao pronta)
     """
     def __init__(self, size, name = 'meanFilter') -> None:
         """
@@ -128,7 +128,7 @@ class MeanFilter(object):
 
 class MeanFilter2(object):
     """
-    Filtro da média implementado usando convolução
+    Filtro da média implementado usando a função pronta mean 
     """
     def __init__(self, size, name = 'meanFilter2') -> None:
         """
