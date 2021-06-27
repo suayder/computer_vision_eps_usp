@@ -64,11 +64,16 @@ class ObjectDataset:
 
         return desc
 
-    def get_item(self,img_name:str) -> tuple:
+    def get_item(self,img_name:str, cache=True) -> tuple:
         """
         load images on demand
         """
         img_class = self.df_csv['class'].loc[img_name]
+        
+        #To not keep the image in memory
+        if not cache:
+            return self.__read_img(self.paths[img_name]), img_class
+
         if img_name in self.images:
             img_arr = self.images[img_name]
         else:
