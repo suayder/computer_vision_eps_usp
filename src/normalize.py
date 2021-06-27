@@ -5,6 +5,8 @@ e então aplica, salva e faz as operações de extrair protótipo, histograma m�
 import os
 from skimage import io
 import numpy as np
+from matplotlib import pyplot as plt
+from math import sqrt, ceil
 from src.augmenter import Transform, Augmenter
 from src.data_reader import ObjectDataset
 from src.utils import build_histogram, show_array
@@ -79,40 +81,86 @@ class ProcessNormalized(ObjectDataset):
         mean_arr = np.rint(mean_arr).astype(np.uint8)
         return mean_arr
 
-    def process_by_class(self, save=True):
+
+    def process_by_class(self):
         """
         process item by class. The idea is almost the same as the function process_dataset_and_save
         but in this case we can filter the images by class.
         The reason of this class is to use to create prototypes by class of each equalized image in the class
 
-        args:
-            save: if true the image will be saved, else the image will only be showed
         """
         class_names = self.get_classes()
+        prototypes = []
+        mean_hist = []
+        variance = []
         for class_name in class_names:
             mean = self.build_mean_prototype(class_name)
-            if save:
-                io.imsave((self.base_path+f'mean_prot_{class_name}.png'), mean)
-            else:
-                show_array(mean)
+            m_hist, var = self.histogram_stats_by_class(class_name)
+            prototypes.append((mean, class_name))
+            mean_hist.append((m_hist, class_name))
+            variance.append((var,class_name))
 
-    def get_histogram(self):
+       
+        # PLOT IMAGES
+        total_len = len(prototypes)
+        rows = round(sqrt(total_len))
+        cols = round(total_len/rows) if round(total_len/rows)*rows>=total_len else ceil(total_len/rows)
+
+        fig,ax = plt.subplots(rows,cols)#, figsize=(18, 16))
+        for el in range(total_len):
+            img, cl = prototypes[el]
+            ax[el//cols,el%cols].imshow(img, cmap='gray')
+            ax[el//cols,el%cols].axis('off')
+            ax[el//cols,el%cols].set_title(cl)
+        
+        fig.tight_layout()
+        plt.axis('off')
+        #plt.show()
+        plt.savefig('mean_prototype.jpg')
+
+        #PLOT HISTOGRAMS
+        def plot_hist(h, n):
+            total_len = len(h)
+            rows = round(sqrt(total_len))
+            cols = round(total_len/rows) if round(total_len/rows)*rows>=total_len else ceil(total_len/rows)
+
+            fig,ax = plt.subplots(rows,cols)#, figsize=(18, 16))
+            for el in range(total_len):
+                img, cl = h[el]
+                ax[el//cols,el%cols].plot(img)
+                ax[el//cols,el%cols].set_title(cl)
+                ax[el//cols,el%cols].grid(axis='y')
+            
+            fig.tight_layout()
+            plt.axis('off')
+            #plt.show()
+            plt.savefig(f'{n}.jpg')
+
+        plot_hist(mean_hist, 'mean_hist')
+        plot_hist(variance, 'variance')
+
+
+    def _get_histogram(self, image):
         """
         in the utils exists a function that return the histogram
         """
-        pass
+        return build_histogram(image)
 
-    def mean_histogram_by_class(self):
+    def histogram_stats_by_class(self, img_class):
         """
         extract the mean of the histogram to each class
-        """
-        pass
 
-    def class_hist_variance(self):
+        Return mean of the histogram and the variance
         """
-        variance of the histogram
-        """
-        pass
-
-# OBS: implementar somente o metodo que calcula as médias variancias, etc e o "retorno" dele seja mostrar
-#       uma imagem com estes graficos é o suficiente
+        names = self.get_items_name_by_class(img_class)
+        list_hist = []
+        for name in names:
+            image, _ = self.get_item(name)
+            hist = self._get_histogram(image)
+            list_hist.append(hist[0])
+        arr = np.array(list_hist)
+        arr = np.stack(arr[..., np.newaxis], axis=-1)
+        mean_hist = arr.mean(axis=-1)
+        variance = arr.var(axis=-1)
+        
+        return mean_hist, variance
