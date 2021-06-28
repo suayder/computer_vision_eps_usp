@@ -167,7 +167,7 @@ class ImageEqualization(object):
     def name(self):
         return 'equalized'
 
-class Resize:
+class Resize(object):
 
     def __init__(self, shape:tuple) -> None:
         """

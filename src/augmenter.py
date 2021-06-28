@@ -51,7 +51,7 @@ class Augmenter(ObjectDataset):
             transformations: class Transform where apply the transformations in the image
         """
         super().__init__(base_path, csv_path)
-        assert isinstance(transformations, Transform)
+        #assert isinstance(transformations, Transform)
         self.tranformations = transformations
     
     def process_item(self, img_name:str) -> dict:
