@@ -95,8 +95,15 @@ Mean prototype
 ![Mean prototype](images/augmdataset_prot.png)
 
 
-**Images for normalized dataset**
+**Images for normalized dataset (with augmentations)**
 
 
 Mean prototype
 ![Mean prototype](images/normdataset_prot.png)
+
+
+Mean histotogram for the full dataset
+![](images/hist_mean_normalized_full.png)
+
+variance histotogram for the full dataset
+![](images/hist_var_normalized_full.png)
