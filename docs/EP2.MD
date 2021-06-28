@@ -69,5 +69,14 @@ In the code, basicaly we go through each class of image in the me method [proces
 
 ## Results for this process
 
-Images from original dataset
+**Images from original-gray dataset**
+
+Mean prototype
 ![Images from original dataset](images/graydataset_prot.png)
+
+
+**Images for augmented dataset**
+
+
+Mean prototype
+![Mean prototype](images/augmdataset_prot.png)
