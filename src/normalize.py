@@ -75,7 +75,7 @@ class ProcessNormalized(ObjectDataset):
         names = self.get_items_name_by_class(img_class)
         list_images = []
         for name in names:
-            image, _ = self.get_item(name)
+            image, _ = self.get_item(name, cache=False)
             list_images.append(image)
         arr = np.array(list_images)
         arr = np.stack(arr[..., np.newaxis], axis=-1)
@@ -157,7 +157,7 @@ class ProcessNormalized(ObjectDataset):
         names = self.get_items_name_by_class(img_class)
         list_hist = []
         for name in names:
-            image, _ = self.get_item(name)
+            image, _ = self.get_item(name, cache=False)
             hist, bins = self._get_histogram(image)
             #Maybe the histogram does not have 255 values, then the matrix must be normed to the same size
             if len(bins)!=256:
