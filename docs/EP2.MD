@@ -74,11 +74,19 @@ In the code, basicaly we go through each class of image in the me method [proces
 Mean prototype
 ![Images from original dataset](images/graydataset_prot.png)
 
-Mean histotogram for the original-gray dataset normalized
+
+Mean histotogram for the original-gray dataset
 ![](images/hist_meanorigray.png)
 
 variance of the histotogram for the original-gray dataset
 ![](images/hist_varorigray.png)
+
+
+Mean histotogram for the original-gray dataset **normalized**
+![](images/normhist_meanorigray.png)
+
+variance of the histotogram for the original-gray dataset **normalized**
+![](images/normhist_varorigray.png)
 
 **Images for augmented dataset**
 
