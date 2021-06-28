@@ -94,6 +94,11 @@ variance of the histotogram for the original-gray dataset **normalized**
 Mean prototype
 ![Mean prototype](images/augmdataset_prot.png)
 
+Mean histotogram for the full dataset
+![](images/hist_mean_augmented_full.png)
+
+variance histotogram for the full dataset
+![](images/hist_var_augmented_full.png)
 
 **Images for normalized dataset (with augmentations)**
 
