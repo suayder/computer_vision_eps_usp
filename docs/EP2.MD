@@ -41,3 +41,14 @@ Just to understand the code flow:
 Basicaly to normalize the dataset we run the same flow of the code used to augment but instead we have passed the [ImageEqualization](https://github.com/suayder/computer_vision_eps_usp/blob/361f487da8dce0d0447aded7adb57baeafbf84d4/src/transform/img_transformers.py#L157) and [Resize](https://github.com/suayder/computer_vision_eps_usp/blob/361f487da8dce0d0447aded7adb57baeafbf84d4/src/transform/img_transformers.py#L170).
 
 The idea is to resize the image first to keep all of them the same size and then normalize the histogram by equalization.
+
+
+# Some images after transformed
+
+## Augmentation
+
+![](images/augmented1.png)
+
+![](images/augmented2.png)
+
+![](images/augmented3.png)
