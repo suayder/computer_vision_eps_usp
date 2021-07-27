@@ -160,3 +160,12 @@ class ObjectDataset:
                 dataset_sample.append((img,c))
                 names.append(element)
         return dataset_sample, names
+    
+    def get_random_names(self, samples_by_class:int)->tuple:
+        classes = self.df_csv['class'].unique()
+        names = []
+        for c in classes:
+            df_class = self.df_csv.loc[self.df_csv['class']==c].index.values.tolist()
+            for element in sample(df_class, samples_by_class):
+                names.append(element)
+        return names
