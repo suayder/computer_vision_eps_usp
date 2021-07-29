@@ -169,3 +169,6 @@ class ObjectDataset:
             for element in sample(df_class, samples_by_class):
                 names.append(element)
         return names
+
+    def get_all_names(self):
+        return self.df_csv.index.values.tolist()
