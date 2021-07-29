@@ -39,13 +39,17 @@ def display_bbox(image:np.ndarray, bbox):
         image: image to draw bounding box over
         bbox: iterable of components (min_r, minc, maxr, maxc)
     """
-    minr, minc, maxr, maxc = bbox
-    rect = mpatches.Rectangle((minc, minr), maxc - minc, maxr - minr,
-                                fill=False, edgecolor='red', linewidth=2)
+    if bbox is not None:
+        minr, minc, maxr, maxc = bbox
+        rect = mpatches.Rectangle((minc, minr), maxc - minc, maxr - minr,
+                                    fill=False, edgecolor='red', linewidth=2)
 
-    fig, ax = plt.subplots()
-    ax.add_patch(rect)
-    ax.imshow(image, cmap=plt.cm.gray)
+        fig, ax = plt.subplots()
+        ax.add_patch(rect)
+        ax.imshow(image, cmap=plt.cm.gray)
+    else:
+        fig, ax = plt.subplots()
+        ax.imshow(image, cmap=plt.cm.gray)
 
 def crop_bbox(image:np.ndarray, bbox):
     """
@@ -54,8 +58,10 @@ def crop_bbox(image:np.ndarray, bbox):
         bbox: iterable of components (minr, minc, maxr, maxc)
     """
 
-    minr, minc, maxr, maxc = bbox
-
+    if bbox is not None:
+        minr, minc, maxr, maxc = bbox
+    else:
+        minr, minc, maxr, maxc = 0,0,image.shape[0], image.shape[1]
     return image[minr:maxr, minc:maxc]
 
 def build_histogram(image: np.ndarray):

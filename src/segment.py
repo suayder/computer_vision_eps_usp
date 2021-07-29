@@ -47,6 +47,9 @@ def object_segmentation(image:np.ndarray)->np.ndarray:
 
 def get_bbox(image:np.ndarray):
 
-    meas = measure.regionprops(image)[0]
-    
+    meas = measure.regionprops(image)
+    if len(meas)>1:
+      meas = meas[0]
+    if len(meas)==0:
+      return None
     return meas.bbox
