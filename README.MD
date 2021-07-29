@@ -8,3 +8,4 @@ All the code produced will be focused in this repo. The projects (EP 1,2 and 3) 
 
 - [EP1 - Summary of the dataset](docs/EP1.MD)
 - [EP2 - Summary ep2](docs/EP2.MD)
+- [EP2 - Summary ep3](docs/EP3.MD)
