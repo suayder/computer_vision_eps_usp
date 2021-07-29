@@ -6,19 +6,18 @@ from skimage.transform import resize
 from src.metrics import classification_metrics
 
 class PCAO:
-  def __init__(self):
-    pass
+  def __init__(self, n_components):
+    self.pca = PCA(n_components=n_components)
 
   def __preprocess(self,images):
-    X = np.reshape(images, (images.shape[0], -1))
+    X = np.reshape(images, shape=(images.shape[0], -1))
     return X
 
-  def fit(self, image_dataset, n_components):
+  def fit(self, image_dataset):
     """
     Transform image with pca
     """
     image_dataset = self.__preprocess(image_dataset)
-    self.pca = PCA(n_components=n_components)
     self.pca.fit(image_dataset)
     print('PCA fitted')
     
