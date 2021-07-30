@@ -32,6 +32,7 @@ def display(imgs, n_cols=1, titles=None, figsize=(15, 10), **kwargs):
         plt.title(title)
         plt.grid(False)
         plt.axis(False)
+        plt.set_cmap('gray')
 
 def display_bbox(image:np.ndarray, bbox):
     """
@@ -39,17 +40,17 @@ def display_bbox(image:np.ndarray, bbox):
         image: image to draw bounding box over
         bbox: iterable of components (min_r, minc, maxr, maxc)
     """
+    fig, ax = plt.subplots()
     if bbox is not None:
         minr, minc, maxr, maxc = bbox
         rect = mpatches.Rectangle((minc, minr), maxc - minc, maxr - minr,
                                     fill=False, edgecolor='red', linewidth=2)
 
-        fig, ax = plt.subplots()
         ax.add_patch(rect)
         ax.imshow(image, cmap=plt.cm.gray)
     else:
-        fig, ax = plt.subplots()
         ax.imshow(image, cmap=plt.cm.gray)
+    ax.axis('off')
 
 def crop_bbox(image:np.ndarray, bbox):
     """
