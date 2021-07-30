@@ -10,7 +10,7 @@ class PCAO:
     self.pca = PCA(n_components=n_components)
 
   def __preprocess(self,images):
-    X = np.reshape(images, shape=(images.shape[0], -1))
+    X = np.reshape(images,(images.shape[0], -1))
     return X
 
   def fit(self, image_dataset):
@@ -31,7 +31,7 @@ class SVMClassifier:
   def __init__(self, input_shape, n_components_pca) -> None:
     self.n_components_pca = n_components_pca
     self.input_shape = input_shape
-    self.pca = PCAO()
+    self.pca = PCAO(n_components_pca)
 
   def __preprocess(self,image):
 
@@ -45,12 +45,13 @@ class SVMClassifier:
   def fit(self, x_train, y_train):
     self.svc = SVC(kernel='rbf', class_weight='balanced')
     
-    self.pca.fit(x_train, n_components=self.n_components_pca)
+    self.pca.fit(x_train)
     x_train = self.pca.transform(x_train)
     
     self.svc.fit(x_train, y_train)
+    print("SVM fitted")
 
   def predict(self, x):
     x = self.__preprocess(x)
-    x = self.pca.transform(x)
+    #x = self.pca.transform(x)
     return self.svc.predict(x)

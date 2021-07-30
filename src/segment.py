@@ -55,10 +55,4 @@ def get_bbox(image:np.ndarray):
         if region.area > max_area:
             bbox = region.bbox
             max_area = region.area
-    bbox
-    # meas = measure.regionprops(image)
-    # if len(meas)==0:
-    #   return None
-    # if len(meas)>1:
-    #   meas = meas[0]
     return bbox
