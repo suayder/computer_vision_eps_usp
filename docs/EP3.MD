@@ -16,6 +16,7 @@ This notebook uses the the classes that we have created in order to describe and
 
 - The manual ground-truth can be found [here](https://drive.google.com/drive/folders/1lKkDUXQHloZy4YMkQMyr7Qx7NTsfO5wq?usp=sharing)
 
+- [This](automatics_pipeline.ipynb) notebook you can see the code to run the pipelines
 
 Based on the goals of the EP3 we listed each result in separated sections as follows:
 
