@@ -53,5 +53,5 @@ class SVMClassifier:
 
   def predict(self, x):
     x = self.__preprocess(x)
-    #x = self.pca.transform(x)
+    x = self.pca.transform(x)
     return self.svc.predict(x)
