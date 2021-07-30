@@ -40,7 +40,9 @@ A brief explanation of the code flow we adopted:
 
 ## Manual Segmentation Samples
 
-![](images/augmented1.png)
+![](images/manual_segmentation.png)
+
+![](images/manual_segmentation2.png)
 
 ## Automatic Segmentation Samples
 
