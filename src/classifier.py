@@ -45,6 +45,7 @@ class SVMClassifier:
   def fit(self, x_train, y_train):
     self.svc = SVC(kernel='rbf', class_weight='balanced')
     
+    x_train = self.__preprocess(x_train)
     self.pca.fit(x_train)
     x_train = self.pca.transform(x_train)
     
